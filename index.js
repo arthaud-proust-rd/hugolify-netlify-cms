@@ -2,6 +2,8 @@
 import posts from './collections/sections/posts.js';
 import categories from './collections/sections/categories.js';
 import authors from './collections/sections/authors.js';
+import projects from './collections/sections/projects.js';
+import types from './collections/sections/types.js';
 import pages from './collections/sections/pages.js';
 
 import indexes from './collections/indexes.js';
@@ -44,6 +46,8 @@ init({
             posts,
             categories,
             authors,
+            projects,
+            types,
             indexes,
             pages,
             menu,
