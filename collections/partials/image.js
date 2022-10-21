@@ -4,7 +4,7 @@ export const image = {
     widget: 'object',
     required: false,
     i18n: true,
-    field: [
+    fields: [
         {
             name: 'src',
             label: 'Image',
