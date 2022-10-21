@@ -1,7 +1,12 @@
+import { index } from '../partials/index.js'
+import { draft } from '../partials/draft.js'
+import { title } from '../partials/title.js'
+import { image } from '../partials/image.js'
+
 const projects = {
     name: 'projects',
-    label: 'Project',
-    label_singular: 'Project',
+    label: 'Projets',
+    label_singular: 'Projet',
     folder: 'content/projects',
     create: true,
 
@@ -13,17 +18,28 @@ const projects = {
     slug: '{{year}}-{{slug}}',
     path: '{{year}}/{{slug}}',
 
+    filter: { field: 'index', value: false },
+
     fields: [
 
-        { name: 'index', label: 'Index', widget: 'hidden', default: false, required: false, i18n: 'duplicate' },
-        { name: 'draft', label: 'Brouillon', widget: 'boolean', default: true, required: false, i18n: 'duplicate' },
-        { name: 'title', label: 'Titre', widget: 'string', i18n: true },
+        index,
+        draft,
+        title,
         { name: 'date', label: 'Date de publication', widget: 'datetime', i18n: 'duplicate' },
         { name: 'types', label: 'Types', widget: 'relation', collection: 'types', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
-        { name: 'image', label: 'Image', widget: 'image', required: false, i18n: 'duplicate', media_library: { config: { max_file_size: 512000 } }, hint: '500Ko max, Compress image before send it: https://tinypng.com/', media_folder: '/assets/images/uploads', public_folder: '/images/uploads' },
-        { name: 'description', label: 'Description',  widget: 'text', required: false, i18n: true },
-        { name: 'body', label: 'Contenu', widget: 'markdown', required: false, i18n: true }
-
+        image,
+        { name: 'description', label: 'Description', widget: 'text', required: false, i18n: true },
+        { name: 'body', label: 'Contenu', widget: 'markdown', required: false, i18n: true },
+        {
+            name: 'images',
+            label: 'Images',
+            widget: 'list',
+            i18n: true,
+            fields: [
+                { name: 'string', label: 'Titre', widget: 'string', required: false, i18n: true },
+                image
+            ]
+        },
     ]
 
 }

@@ -1,7 +1,10 @@
+import { index } from '../partials/index.js'
+import { title } from '../partials/title.js'
+
 const categories = {
     name: 'categories',
     label: 'Categories',
-    label_singular: 'Category',
+    label_singular: 'Categorie',
     folder: 'content/categories',
     create: true,
 
@@ -18,8 +21,8 @@ const categories = {
 
     fields: [
 
-        { name: 'index', label: 'Index', widget: 'hidden', default: false, required: false, i18n: 'duplicate' },
-        { name: 'title', label: 'Titre', widget: 'string', i18n: true }
+        index,
+        title
 
     ]
 

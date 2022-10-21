@@ -1,7 +1,12 @@
+import { index } from '../partials/index.js'
+import { draft } from '../partials/draft.js'
+import { title } from '../partials/title.js'
+import { image } from '../partials/image.js'
+
 const authors = {
     name: 'authors',
-    label: 'Authors',
-    label_singular: 'Author',
+    label: 'Auteurs',
+    label_singular: 'Auteur',
     folder: 'content/authors',
     create: true,
 
@@ -19,10 +24,10 @@ const authors = {
 
     fields: [
 
-        { name: 'index', label: 'Index', widget: 'hidden', default: false, required: false, i18n: 'duplicate' },
-        { name: 'draft', label: 'Brouillon', widget: 'boolean', default: true, required: false, i18n: 'duplicate' },
-        { name: 'title', label: 'Nom', widget: 'string', i18n: true },
-        { name: 'image', label: 'Image', widget: 'image', required: false, i18n: 'duplicate', media_library: { config: { max_file_size: 512000 } }, hint: '500Ko max, Compress image before send it: https://tinypng.com/', media_folder: '/assets/images/uploads', public_folder: '/images/uploads' },
+        index,
+        draft,
+        title,
+        image,
         { name: 'description', label: 'Description', widget: 'text', required: false, i18n: true },
         { name: 'email', label: 'Email', widget: 'string', required: false, i18n: 'duplicate' },
         { name: 'twitter', label: 'Twitter', widget: 'string', required: false, i18n: 'duplicate', hint: 'Username' },

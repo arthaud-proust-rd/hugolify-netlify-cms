@@ -1,3 +1,6 @@
+import { index } from '../partials/index.js'
+import { title } from '../partials/title.js'
+
 const types = {
     name: 'types',
     label: 'Types',
@@ -18,8 +21,8 @@ const types = {
 
     fields: [
 
-        { name: 'index', label: 'Index', widget: 'hidden', default: false, required: false, i18n: 'duplicate' },
-        { name: 'title', label: 'Titre', widget: 'string', i18n: true }
+        index,
+        title
 
     ]
 
