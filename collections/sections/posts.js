@@ -17,6 +17,7 @@ const posts = {
 
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
     path: '{{year}}/{{month}}/{{slug}}',
+    summary: '{{title}} — {{year}}/{{month}}/{{day}}',
 
     fields: [
 

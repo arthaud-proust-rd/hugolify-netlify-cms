@@ -6,6 +6,7 @@ const indexes = {
     label: 'Index des pages',
     folder: 'content',
     create: true,
+    description: 'Toutes les pages principales',
 
     editor: { preview: false },
 
@@ -13,7 +14,7 @@ const indexes = {
 
     nested: { depth: 3 },
     filter: { field: 'index', value: true },
-    summary: '{{title}} ({{dirname}})',
+    summary: '{{title}}',
 
     fields: [
 

@@ -1,6 +1,7 @@
 const menu = {
     name: 'menu',
     label: 'Menus',
+    description: 'Tous les menus disponibles',
 
     editor: { preview: false },
 
@@ -8,7 +9,7 @@ const menu = {
 
         {
             name: 'primary',
-            label: 'Primary',
+            label: 'Principal',
             file: 'data/menu/primary.yml',
             i18n: true,
             fields: [
@@ -28,7 +29,7 @@ const menu = {
         },
         {
             name: 'secondary',
-            label: 'Secondary',
+            label: 'Secondaire',
             file: 'data/menu/secondary.yml',
             i18n: true,
             fields: [

@@ -3,7 +3,7 @@ import { title } from '../partials/title.js'
 
 const types = {
     name: 'types',
-    label: 'Types',
+    label: 'Types de projet',
     label_singular: 'Type',
     folder: 'content/types',
     create: true,
