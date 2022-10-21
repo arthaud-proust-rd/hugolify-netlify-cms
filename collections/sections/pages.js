@@ -2,6 +2,7 @@ import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
 import { title } from '../partials/title.js'
 import { image } from '../partials/image.js'
+import { body } from '../partials/body.js'
 
 const pages = {
     name: 'pages',
@@ -28,8 +29,7 @@ const pages = {
         title,
         image,
         { name: 'description', label: 'Description',  widget: 'text', required: false, i18n: true },
-        { name: 'body', label: 'Contenu', widget: 'markdown', required: false, i18n: true }
-
+        body
     ]
 
 }

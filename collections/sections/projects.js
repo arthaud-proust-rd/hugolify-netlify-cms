@@ -2,6 +2,7 @@ import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
 import { title } from '../partials/title.js'
 import { image } from '../partials/image.js'
+import { body } from '../partials/body.js'
 
 const projects = {
     name: 'projects',
@@ -29,7 +30,6 @@ const projects = {
         { name: 'types', label: 'Types', widget: 'relation', collection: 'types', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
         image,
         { name: 'description', label: 'Description', widget: 'text', required: false, i18n: true },
-        { name: 'body', label: 'Contenu', widget: 'markdown', required: false, i18n: true },
         {
             name: 'images',
             label: 'Images',
@@ -40,6 +40,7 @@ const projects = {
                 image
             ]
         },
+        body
     ]
 
 }

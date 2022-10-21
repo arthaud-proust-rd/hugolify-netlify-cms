@@ -2,6 +2,7 @@ import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
 import { title } from '../partials/title.js'
 import { image } from '../partials/image.js'
+import { body } from '../partials/body.js'
 
 const posts = {
     name: 'posts',
@@ -29,8 +30,7 @@ const posts = {
         { name: 'authors', label: 'Authors', widget: 'relation', collection: 'authors', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
         image,
         { name: 'description', label: 'Description',  widget: 'text', required: false, i18n: true },
-        { name: 'body', label: 'Contenu', widget: 'markdown', required: false, i18n: true }
-
+        body
     ]
 
 }

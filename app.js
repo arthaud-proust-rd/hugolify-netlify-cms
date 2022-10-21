@@ -2,9 +2,13 @@
 // import CMS, { init } from 'netlify-cms'
 const { CMS, initCMS: init } = window
 
+// Import all collections
 import collections from './collections/index.js';
 
+// Import all shortcodes for editor
+import './editor/index.js';
 
+// Init
 init({
     config: {
         backend: {

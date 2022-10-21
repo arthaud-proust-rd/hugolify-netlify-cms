@@ -1,3 +1,4 @@
+/* global CMS */
 CMS.registerEditorComponent({
     id: 'twitter',
     label: 'Twitter',
@@ -13,7 +14,7 @@ CMS.registerEditorComponent({
             widget: 'string'
         }
     ],
-    pattern: /{{< tweet ([a-zA-Z0-9]+) >}}/,
+    pattern: /{{< tweet (.*?) >}}/,
     fromBlock: function (match) {
         return {
             user: match[1],
