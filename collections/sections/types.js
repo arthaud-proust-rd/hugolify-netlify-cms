@@ -18,7 +18,8 @@ const types = {
 
     fields: [
 
-        { name: 'index', label: 'Index', widget: 'hidden', default: false, required: false, i18n: 'duplicate' }
+        { name: 'index', label: 'Index', widget: 'hidden', default: false, required: false, i18n: 'duplicate' },
+        { name: 'title', label: 'Titre', widget: 'string', i18n: true }
 
     ]
 
