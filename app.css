@@ -1,0 +1,71 @@
+:root {
+    --text-color: black;
+    --grey: rgb(240, 240, 240);
+    --border-radius: 0;
+    --margin: 20px;
+}
+
+
+[class*="ControlContainer"] label {
+    background: transparent;
+    color: var(--text-color);
+    padding-left: 0;
+}
+
+
+[class*="TopBar-StyledListItemTopBar-StyledListItemTopBar"] button,
+[class*="TopBar-StyledListItemTopBar-StyledListItemTopBar"] > span {
+    background-color: var(--grey);
+    border-radius: var(--border-radius);
+}
+
+[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"],
+[class*="ListItem-listControlItem-ListControl"] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label,
+[class*="ListItem-listControlItem-ListControl"] > label {
+    background: transparent;
+    color: var(--text-color);
+    order: 1;
+    padding-left: 0;
+}
+
+[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > div:nth-of-type(2),
+[class*="ListItem-listControlItem-ListControl"] > div:nth-of-type(2) {
+    background: transparent;
+    color: var(--text-color);
+    order: 2;
+    padding: 0;
+}
+
+[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > div:first-of-type,
+[class*="ListItem-listControlItem-ListControl"] > div:first-of-type {
+    flex: 0 0 100%;
+    order: 3;
+}
+
+
+[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > div:last-child,
+[class*="ListItem-listControlItem-ListControl"] > div:last-child {
+    border: 1px solid var(--grey);
+    border-radius: var(--border-radius);
+    flex: 0 0 100%;
+    order: 4;
+    padding: 0 var(--margin) var(--margin);
+}
+
+[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label::before,
+[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label::after,
+[class*="ListItem-listControlItem-ListControl"] > label::before,
+[class*="ListItem-listControlItem-ListControl"] > label::after {
+    content: none;
+}
+
+[class*="ControlContainer"],
+[class*="ControlContainer"]:first-of-type {
+    margin-top: var(--margin) !important;
+}
