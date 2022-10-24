@@ -25,7 +25,6 @@ const categories = {
         title
 
     ]
-
 }
 
 export default categories

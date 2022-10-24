@@ -1,5 +1,6 @@
 import { title } from '../partials/title.js'
-import { hero } from '../partials/hero.js'
+import { hero } from '../blocks/hero.js'
+import { blocks } from '../blocks/blocks.js'
 
 const indexes = {
     name: 'indexes',
@@ -20,9 +21,9 @@ const indexes = {
 
         { name: 'index', label: 'Index', widget: 'hidden', default: true, required: false, i18n: 'duplicate' },
         title,
-        hero
+        hero,
+        blocks
     ]
-
 }
 
 export default indexes

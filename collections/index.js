@@ -1,12 +1,12 @@
-// Sections
-import posts from './sections/posts.js';
-import categories from './sections/categories.js';
-import authors from './sections/authors.js';
-import projects from './sections/projects.js';
-import types from './sections/types.js';
-import pages from './sections/pages.js';
+// Types
+import posts from './types/posts.js';
+import categories from './types/categories.js';
+import authors from './types/authors.js';
+import projects from './types/projects.js';
+import types from './types/types.js';
+import pages from './types/pages.js';
 
-import indexes from './sections/indexes.js';
+import indexes from './types/indexes.js';
 
 // Datas
 import menu from './datas/menu.js';

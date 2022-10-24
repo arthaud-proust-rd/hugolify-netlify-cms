@@ -2,6 +2,7 @@ import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
 import { title } from '../partials/title.js'
 import { image } from '../partials/image.js'
+import { description } from '../partials/description.js'
 import { body } from '../partials/body.js'
 
 const pages = {
@@ -28,10 +29,9 @@ const pages = {
         { name: 'layout', label: 'Layout', widget: 'select', options: ['blocks'], required: false, i18n: 'duplicate' },
         title,
         image,
-        { name: 'description', label: 'Description',  widget: 'text', required: false, i18n: true },
+        description,
         body
     ]
-
 }
 
 export default pages

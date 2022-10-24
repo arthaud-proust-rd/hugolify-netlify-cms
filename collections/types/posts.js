@@ -1,6 +1,8 @@
 import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
+import { date } from '../partials/date.js'
 import { title } from '../partials/title.js'
+import { description } from '../partials/description.js'
 import { image } from '../partials/image.js'
 import { body } from '../partials/body.js'
 
@@ -20,19 +22,20 @@ const posts = {
     path: '{{year}}/{{month}}/{{slug}}',
     summary: '{{title}} — {{year}}/{{month}}/{{day}}',
 
+    filter: { field: 'index', value: false },
+
     fields: [
 
         index,
         draft,
         title,
-        { name: 'date', label: 'Date de publication', widget: 'datetime', i18n: 'duplicate' },
+        date,
         { name: 'categories', label: 'Categories', widget: 'relation', collection: 'categories', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
         { name: 'authors', label: 'Authors', widget: 'relation', collection: 'authors', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
         image,
-        { name: 'description', label: 'Description',  widget: 'text', required: false, i18n: true },
+        description,
         body
     ]
-
 }
 
 export default posts

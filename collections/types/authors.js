@@ -1,6 +1,7 @@
 import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
 import { title } from '../partials/title.js'
+import { description } from '../partials/description.js'
 import { image } from '../partials/image.js'
 
 const authors = {
@@ -28,13 +29,12 @@ const authors = {
         draft,
         title,
         image,
-        { name: 'description', label: 'Description', widget: 'text', required: false, i18n: true },
+        description,
         { name: 'email', label: 'Email', widget: 'string', required: false, i18n: 'duplicate' },
         { name: 'twitter', label: 'Twitter', widget: 'string', required: false, i18n: 'duplicate', hint: 'Username' },
         { name: 'website', label: 'Site web', widget: 'string', required: false, i18n: 'duplicate' }
 
     ]
-
-  }
+}
 
 export default authors

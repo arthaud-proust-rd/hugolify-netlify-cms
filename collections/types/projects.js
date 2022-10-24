@@ -1,8 +1,12 @@
 import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
+import { date } from '../partials/date.js'
 import { title } from '../partials/title.js'
+import { description } from '../partials/description.js'
 import { image } from '../partials/image.js'
 import { body } from '../partials/body.js'
+
+import { images } from '../blocks/images.js'
 
 const projects = {
     name: 'projects',
@@ -26,20 +30,11 @@ const projects = {
         index,
         draft,
         title,
-        { name: 'date', label: 'Date de publication', widget: 'datetime', i18n: 'duplicate' },
+        date,
         { name: 'types', label: 'Types', widget: 'relation', collection: 'types', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
         image,
-        { name: 'description', label: 'Description', widget: 'text', required: false, i18n: true },
-        {
-            name: 'images',
-            label: 'Images',
-            widget: 'list',
-            i18n: true,
-            fields: [
-                { name: 'string', label: 'Titre', widget: 'string', required: false, i18n: true },
-                image
-            ]
-        },
+        description,
+        images,
         body
     ]
 
