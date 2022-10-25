@@ -5,11 +5,36 @@
     --margin: 20px;
 }
 
+input[type="text"],
+textarea {
+    border: 1px solid var(--grey) !important;
+    border-radius: var(--border-radius) !important;
+    padding: 15px !important;
+}
 
-[class*="ControlContainer"] label {
+[class*="-ControlContainer"] {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+[class*="ControlContainer"] > label {
     background: transparent;
     color: var(--text-color);
     padding-left: 0;
+}
+[class*="ControlContainer"] > div {
+    border: 1px dashed var(--grey);
+    overflow: hidden;
+    padding-bottom: 0 !important;
+}
+
+label + [class*="-DateTimeControl"] {
+    border: 0 !important;
+}
+
+[class*="-TopBarContainer"] {
+    background: var(--grey) !important;
+    padding: 5px !important;
 }
 
 
@@ -24,7 +49,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 
 [class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label,
 [class*="ListItem-listControlItem-ListControl"] > label {
@@ -68,4 +92,9 @@
 [class*="ControlContainer"],
 [class*="ControlContainer"]:first-of-type {
     margin-top: var(--margin) !important;
+}
+
+
+[class*="-ImageWrapper-checkerboard"] {
+    float: left;
 }
