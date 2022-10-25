@@ -1,7 +1,7 @@
 import { title } from '../partials/title.js'
 
 export const latestposts = {
-    name: 'latest-post',
+    name: 'latest-posts',
     label: 'Dernières actualités',
     widget: 'object',
     required: false,
