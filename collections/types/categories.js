@@ -7,6 +7,7 @@ const categories = {
     label_singular: 'Categorie',
     folder: 'content/categories',
     create: true,
+    description: 'Toutes les catégories d’actualités',
 
     editor: { preview: false },
     // preview_path: "/categories/",

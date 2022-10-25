@@ -10,6 +10,7 @@ const authors = {
     label_singular: 'Auteur',
     folder: 'content/authors',
     create: true,
+    description: 'Tous les auteurs d’actualités',
 
     editor: { preview: false },
     // preview_path: "/authors/",
