@@ -7,6 +7,7 @@ const types = {
     label_singular: 'Type',
     folder: 'content/types',
     create: true,
+    description: 'Tous les types de projets',
 
     editor: { preview: false },
     // preview_path: "/types/",
