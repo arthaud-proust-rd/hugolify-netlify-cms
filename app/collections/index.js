@@ -4,6 +4,7 @@ import categories from './types/categories.js';
 import authors from './types/authors.js';
 import projects from './types/projects.js';
 import types from './types/types.js';
+// import publications from './types/publications.js';
 import pages from './types/pages.js';
 
 import indexes from './types/indexes.js';
@@ -18,6 +19,7 @@ export const collections = [
     authors,
     projects,
     types,
+    // publications,
     indexes,
     pages,
     menu,
