@@ -1,4 +1,5 @@
 import { text } from '../partials/text.js'
+import { url } from '../partials/url.js'
 
 export const cta = {
     name: 'cta',
@@ -9,11 +10,6 @@ export const cta = {
     collapsed: true,
     fields: [
         text,
-        {
-            name: 'url',
-            label: 'URL',
-            widget: 'string',
-            i18n: true
-        }
+        url
     ]
 }

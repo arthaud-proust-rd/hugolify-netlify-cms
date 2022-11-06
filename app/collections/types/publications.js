@@ -3,7 +3,7 @@ import { draft } from '../partials/draft.js'
 import { date } from '../partials/date.js'
 import { title } from '../partials/title.js'
 import { description } from '../partials/description.js'
-import { url } from '../partials/url.js'
+import { target } from '../partials/target.js'
 import { image } from '../partials/image.js'
 
 const publications = {
@@ -31,7 +31,7 @@ const publications = {
         title,
         date,
         description,
-        url,
+        target,
         image
     ]
 }
