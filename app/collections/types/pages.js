@@ -4,7 +4,6 @@ import { title } from '../fields/title.js'
 import { featured_image } from '../fields/featured-image.js'
 import { description } from '../fields/description.js'
 import { body } from '../fields/body.js'
-import { layout } from '../fields/layout.js'
 
 const pages = {
     name: 'pages',
@@ -26,7 +25,6 @@ const pages = {
     fields: [
         index,
         draft,
-        layout,
         title,
         featured_image,
         description,
