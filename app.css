@@ -24,7 +24,6 @@ textarea {
 }
 [class*="ControlContainer"] > div {
     border: 1px dashed var(--grey);
-    /* overflow: hidden; */
     padding-bottom: 0 !important;
 }
 
@@ -94,7 +93,15 @@ label + [class*="-DateTimeControl"] {
     margin-top: var(--margin) !important;
 }
 
-
 [class*="-ImageWrapper-checkerboard"] {
     float: left;
+}
+
+[class*="-control"] input[type="text"] {
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+[class*="-TreeNavLink-TreeNavLink"] > div > div:last-child {
+    display: none;
 }
