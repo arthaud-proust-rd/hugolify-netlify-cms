@@ -4,6 +4,7 @@ import { block_editorial } from './editorial.js'
 import { block_figure } from './figure.js'
 import { block_latestposts } from './latest-posts.js'
 import { block_latestprojects } from './latest-projects.js'
+import { block_selectedprojects } from './selected-projects.js'
 import { block_title } from './title.js'
 
 export const blocks = {
@@ -18,6 +19,7 @@ export const blocks = {
         block_figure,
         block_latestposts,
         block_latestprojects,
+        block_selectedprojects,
         block_title
     ]
 }

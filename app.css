@@ -24,7 +24,7 @@ textarea {
 }
 [class*="ControlContainer"] > div {
     border: 1px dashed var(--grey);
-    overflow: hidden;
+    /* overflow: hidden; */
     padding-bottom: 0 !important;
 }
 
