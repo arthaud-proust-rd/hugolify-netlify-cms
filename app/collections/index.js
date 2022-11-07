@@ -10,7 +10,6 @@ import col_pages from './types/pages.js';
 import col_indexes from './types/indexes.js';
 
 // Datas
-import menu from './datas/menu.js';
 import config from './datas/config.js';
 
 export const collections = [
@@ -22,7 +21,6 @@ export const collections = [
     // col_publications,
     col_indexes,
     col_pages,
-    menu,
     config
 ]
 
