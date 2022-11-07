@@ -1,6 +1,7 @@
 :root {
     --text-color: black;
     --grey: rgb(240, 240, 240);
+    --lightgrey: rgb(250, 250, 250);
     --border-radius: 0;
     --margin: 20px;
 }
@@ -13,7 +14,7 @@ textarea {
 }
 
 [class*="-ControlContainer"] {
-    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
     margin-top: 10px !important;
 }
 
@@ -23,7 +24,8 @@ textarea {
     padding-left: 0;
 }
 [class*="ControlContainer"] > div {
-    border: 1px dashed var(--grey);
+    /* border: 1px dashed var(--grey); */
+    border: 0;
     padding-bottom: 0 !important;
 }
 
@@ -74,7 +76,8 @@ label + [class*="-DateTimeControl"] {
 
 [class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > div:last-child,
 [class*="ListItem-listControlItem-ListControl"] > div:last-child {
-    border: 1px solid var(--grey);
+    /* border: 1px solid var(--grey); */
+    border: 0;
     border-radius: var(--border-radius);
     flex: 0 0 100%;
     order: 4;
@@ -84,7 +87,10 @@ label + [class*="-DateTimeControl"] {
 [class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label::before,
 [class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label::after,
 [class*="ListItem-listControlItem-ListControl"] > label::before,
-[class*="ListItem-listControlItem-ListControl"] > label::after {
+[class*="ListItem-listControlItem-ListControl"] > label::after,
+
+[class*="-FieldLabel-fieldLabel"]::before,
+[class*="-FieldLabel-fieldLabel"]::after {
     content: none;
 }
 
@@ -97,9 +103,24 @@ label + [class*="-DateTimeControl"] {
     float: left;
 }
 
+[class*="-control"] {
+    border: 1px dashed var(--grey) !important;
+}
+
 [class*="-control"] input[type="text"] {
     border: 0 !important;
     padding: 0 !important;
+}
+
+div > div[id*="blocks-field-"],
+div > div[id*="hero-field-"] {
+    background-color: var(--lightgrey) !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
+    padding-bottom: var(--margin) !important;
 }
 
 [class*="-TreeNavLink-TreeNavLink"] > div > div:last-child {
