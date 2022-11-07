@@ -5,6 +5,7 @@ import { types } from '../fields/types.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { featured_image } from '../fields/featured-image.js'
+import { datas } from '../fields/datas.js'
 import { body } from '../fields/body.js'
 import { images } from '../fields/images.js'
 
@@ -20,7 +21,7 @@ const projects = {
 
     // #i18n: true,
 
-    slug: '{{year}}-{{slug}}',
+    slug: '{{slug}}',
     path: '{{year}}/{{slug}}',
 
     filter: { field: 'index', value: false },
@@ -33,6 +34,7 @@ const projects = {
         types,
         featured_image,
         description,
+        datas,
         images,
         body
     ]
