@@ -4,7 +4,7 @@ import { image } from '../fields/image.js'
 
 export const block_blockquote = {
     name: 'blockquote',
-    label: 'Bloc citation',
+    label: 'Citation',
     widget: 'object',
     required: false,
     i18n: true,
