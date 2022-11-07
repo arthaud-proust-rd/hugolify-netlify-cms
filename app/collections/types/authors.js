@@ -1,8 +1,11 @@
-import { index } from '../partials/index.js'
-import { draft } from '../partials/draft.js'
-import { title } from '../partials/title.js'
-import { description } from '../partials/description.js'
-import { image } from '../partials/image.js'
+import { index } from '../fields/index.js'
+import { draft } from '../fields/draft.js'
+import { title } from '../fields/title.js'
+import { description } from '../fields/description.js'
+import { featured_image } from '../fields/featured-image.js'
+import { email } from '../fields/email.js'
+import { website } from '../fields/website.js'
+import { twitter } from '../fields/twitter.js'
 
 const authors = {
     name: 'authors',
@@ -25,16 +28,14 @@ const authors = {
     filter: { field: 'index', value: false },
 
     fields: [
-
         index,
         draft,
         title,
-        image,
+        featured_image,
         description,
-        { name: 'email', label: 'Email', widget: 'string', required: false, i18n: 'duplicate' },
-        { name: 'twitter', label: 'Twitter', widget: 'string', required: false, i18n: 'duplicate', hint: 'Username' },
-        { name: 'website', label: 'Site web', widget: 'string', required: false, i18n: 'duplicate' }
-
+        email,
+        twitter,
+        website
     ]
 }
 

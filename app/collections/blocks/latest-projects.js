@@ -1,6 +1,6 @@
-import { title } from '../partials/title.js'
+import { title } from '../fields/title.js'
 
-export const latestprojects = {
+export const block_latestprojects = {
     name: 'latest-projects',
     label: 'Derniers projets',
     widget: 'object',

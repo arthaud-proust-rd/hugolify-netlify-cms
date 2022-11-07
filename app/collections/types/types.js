@@ -1,5 +1,5 @@
-import { index } from '../partials/index.js'
-import { title } from '../partials/title.js'
+import { index } from '../fields/index.js'
+import { title } from '../fields/title.js'
 
 const types = {
     name: 'types',
@@ -21,10 +21,8 @@ const types = {
     filter: { field: 'index', value: false },
 
     fields: [
-
         index,
         title
-
     ]
 
 }

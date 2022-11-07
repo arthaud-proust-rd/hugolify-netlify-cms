@@ -1,9 +1,10 @@
-import { index } from '../partials/index.js'
-import { draft } from '../partials/draft.js'
-import { title } from '../partials/title.js'
-import { image } from '../partials/image.js'
-import { description } from '../partials/description.js'
-import { body } from '../partials/body.js'
+import { index } from '../fields/index.js'
+import { draft } from '../fields/draft.js'
+import { title } from '../fields/title.js'
+import { featured_image } from '../fields/featured-image.js'
+import { description } from '../fields/description.js'
+import { body } from '../fields/body.js'
+import { layout } from '../fields/layout.js'
 
 const pages = {
     name: 'pages',
@@ -23,12 +24,11 @@ const pages = {
     nested: { depth: 3 },
 
     fields: [
-
         index,
         draft,
-        { name: 'layout', label: 'Layout', widget: 'select', options: ['blocks'], required: false, i18n: 'duplicate' },
+        layout,
         title,
-        image,
+        featured_image,
         description,
         body
     ]

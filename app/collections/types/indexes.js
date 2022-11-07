@@ -1,4 +1,4 @@
-import { title } from '../partials/title.js'
+import { title } from '../fields/title.js'
 import { hero } from '../blocks/hero.js'
 import { blocks } from '../blocks/blocks.js'
 
@@ -18,7 +18,6 @@ const indexes = {
     summary: '{{title}}',
 
     fields: [
-
         { name: 'index', label: 'Index', widget: 'hidden', default: true, required: false, i18n: 'duplicate' },
         title,
         hero,

@@ -1,10 +1,11 @@
-import { index } from '../partials/index.js'
-import { draft } from '../partials/draft.js'
-import { date } from '../partials/date.js'
-import { title } from '../partials/title.js'
-import { description } from '../partials/description.js'
-import { target } from '../partials/target.js'
-import { image } from '../partials/image.js'
+import { index } from '../fields/index.js'
+import { draft } from '../fields/draft.js'
+import { date } from '../fields/date.js'
+import { title } from '../fields/title.js'
+import { description } from '../fields/description.js'
+import { target } from '../fields/target.js'
+import { featured_image } from '../fields/featured-image.js'
+import { images } from '../fields/images.js'
 
 const publications = {
     name: 'publications',
@@ -25,14 +26,14 @@ const publications = {
     filter: { field: 'index', value: false },
 
     fields: [
-
         index,
         draft,
         title,
         date,
         description,
         target,
-        image
+        featured_image,
+        images
     ]
 }
 

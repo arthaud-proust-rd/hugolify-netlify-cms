@@ -1,6 +1,6 @@
-import { title } from '../partials/title.js'
+import { title } from '../fields/title.js'
 
-export const latestposts = {
+export const block_latestposts = {
     name: 'latest-posts',
     label: 'Dernières actualités',
     widget: 'object',

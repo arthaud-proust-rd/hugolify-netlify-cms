@@ -1,10 +1,12 @@
-import { index } from '../partials/index.js'
-import { draft } from '../partials/draft.js'
-import { date } from '../partials/date.js'
-import { title } from '../partials/title.js'
-import { description } from '../partials/description.js'
-import { image } from '../partials/image.js'
-import { body } from '../partials/body.js'
+import { index } from '../fields/index.js'
+import { draft } from '../fields/draft.js'
+import { date } from '../fields/date.js'
+import { title } from '../fields/title.js'
+import { description } from '../fields/description.js'
+import { featured_image } from '../fields/featured-image.js'
+import { body } from '../fields/body.js'
+import { categories } from '../fields/categories.js'
+import { authors } from '../fields/authors.js'
 
 const posts = {
     name: 'posts',
@@ -25,14 +27,13 @@ const posts = {
     filter: { field: 'index', value: false },
 
     fields: [
-
         index,
         draft,
         title,
         date,
-        { name: 'categories', label: 'Categories', widget: 'relation', collection: 'categories', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
-        { name: 'authors', label: 'Authors', widget: 'relation', collection: 'authors', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
-        image,
+        categories,
+        authors,
+        featured_image,
         description,
         body
     ]

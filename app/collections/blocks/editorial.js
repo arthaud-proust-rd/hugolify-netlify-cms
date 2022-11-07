@@ -1,9 +1,9 @@
-import { title } from '../partials/title.js'
-import { text } from '../partials/text.js'
-import { cta } from './cta.js'
-import { image } from '../partials/image.js'
+import { title } from '../fields/title.js'
+import { text } from '../fields/text.js'
+import { cta } from '../fields/cta.js'
+import { image } from '../fields/image.js'
 
-export const editorial = {
+export const block_editorial = {
     name: 'editorial',
     label: 'Editorial',
     widget: 'object',

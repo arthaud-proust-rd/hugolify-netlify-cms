@@ -1,12 +1,12 @@
-import { index } from '../partials/index.js'
-import { draft } from '../partials/draft.js'
-import { date } from '../partials/date.js'
-import { title } from '../partials/title.js'
-import { description } from '../partials/description.js'
-import { image } from '../partials/image.js'
-import { body } from '../partials/body.js'
-
-import { images } from '../blocks/images.js'
+import { index } from '../fields/index.js'
+import { draft } from '../fields/draft.js'
+import { date } from '../fields/date.js'
+import { types } from '../fields/types.js'
+import { title } from '../fields/title.js'
+import { description } from '../fields/description.js'
+import { featured_image } from '../fields/featured-image.js'
+import { body } from '../fields/body.js'
+import { images } from '../fields/images.js'
 
 const projects = {
     name: 'projects',
@@ -26,13 +26,12 @@ const projects = {
     filter: { field: 'index', value: false },
 
     fields: [
-
         index,
         draft,
         title,
         date,
-        { name: 'types', label: 'Types', widget: 'relation', collection: 'types', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
-        image,
+        types,
+        featured_image,
         description,
         images,
         body
