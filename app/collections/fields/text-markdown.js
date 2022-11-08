@@ -3,7 +3,7 @@ export const text_markdown = {
     label: 'Texte',
     widget: 'markdown',
     minimal: true,
-    buttons: ["bold", "italic", "link"],
+    buttons: ["bold", "italic", "link", "bulleted-list"],
     editor_components: [],
     modes: ["rich_text"],
     required: false,
