@@ -23,6 +23,6 @@ export const block_blockquote = {
                 text,
                 image
             ]
-        },
+        }
     ]
 }
