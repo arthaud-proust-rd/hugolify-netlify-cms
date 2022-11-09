@@ -123,6 +123,6 @@ div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
     padding-bottom: var(--margin) !important;
 }
 
-[class*="-TreeNavLink-TreeNavLink"] > div > div:last-child {
+[class*="-TreeNavLink-TreeNavLink"] > div > div:nth-child(2) {
     display: none;
 }
