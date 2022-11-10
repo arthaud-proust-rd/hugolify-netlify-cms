@@ -5,7 +5,6 @@ export const config = {
         name: 'git-gateway',
         branch: 'main'
     },
-
     load_config_file: false,
     local_backend: true,
 
