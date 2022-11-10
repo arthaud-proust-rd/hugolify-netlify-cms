@@ -1,60 +1,31 @@
 /* global CMS */
+import { image_src } from '../../collections/fields/image-src.js'
+import { image_alt } from '../../collections/fields/image-alt.js'
+import { legend } from '../../collections/fields/legend.js'
+import { credit } from '../../collections/fields/credit.js'
+
 CMS.registerEditorComponent({
     id: 'figure',
     label: 'Figure (image)',
     fields: [
-        {
-            name: 'src',
-            label: 'Image',
-            widget: 'image',
-            media_library: {
-                config: {
-                    max_file_size: 512000
-                }
-            },
-            hint: '500Ko max, Compresser l’image avant de l’envoyer : https://tinypng.com/',
-            media_folder: '/assets/images/uploads',
-            public_folder: '/images/uploads'
-        },
-        {
-            name: 'alt',
-            label: 'Texte alternatif',
-            required: false,
-            widget: 'string'
-        },
-        {
-            name: 'link',
-            label: 'Lien',
-            required: false,
-            widget: 'string'
-        },
-        {
-            name: 'title',
-            label: 'Légende',
-            required: false,
-            widget: 'string'
-        },
-        {
-            name: 'credits',
-            label: 'Crédits',
-            required: false,
-            widget: 'string'
-        }
+        image_src,
+        image_alt,
+        legend,
+        credit
     ],
     pattern: /{{< figure (.*?) >}}/,
     fromBlock: function (match) {
         return {
             src: match[1],
             alt: match[2],
-            link: match[3],
-            title: match[4],
-            credits: match[5]
+            legend: match[3],
+            credit: match[4]
         };
     },
     toBlock: function (obj) {
-        return `{{< figure src="${obj.src}" alt="${obj.alt}" link="${obj.link}" title="${obj.title}" credits="${obj.credits}" >}}`;
+        return `{{< figure src="${obj.src}" alt="${obj.alt}" legend="${obj.legend}" credit="${obj.credit}" >}}`;
     },
     toPreview: function (obj) {
-        return `{{< figure src="${obj.src}" alt="${obj.alt}" link="${obj.link}" title="${obj.title}" credits="${obj.credits}" >}}`;
+        return `{{< figure src="${obj.src}" alt="${obj.alt}" legend="${obj.legend}" credit="${obj.credit}" >}}`;
     }
 });
