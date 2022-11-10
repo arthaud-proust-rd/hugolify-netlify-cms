@@ -1,6 +1,7 @@
 import { index } from '../fields/index.js'
 import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
+import { hero } from '../fields/hero.js'
 import { featured_image } from '../fields/featured-image.js'
 import { description } from '../fields/description.js'
 import { body } from '../fields/body.js'
@@ -26,6 +27,7 @@ const pages = {
         index,
         draft,
         title,
+        hero,
         featured_image,
         description,
         body

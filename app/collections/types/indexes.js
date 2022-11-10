@@ -1,5 +1,5 @@
 import { title } from '../fields/title.js'
-import { hero } from '../blocks/hero.js'
+import { hero } from '../fields/hero.js'
 import { blocks } from '../blocks/blocks.js'
 
 const indexes = {

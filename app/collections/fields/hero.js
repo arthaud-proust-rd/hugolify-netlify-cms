@@ -1,7 +1,7 @@
-import { title } from '../fields/title.js'
-import { text } from '../fields/text.js'
-import { cta } from '../fields/cta.js'
-import { image } from '../fields/image.js'
+import { title } from './title.js'
+import { text } from './text.js'
+import { cta } from './cta.js'
+import { image } from './image.js'
 
 export const hero = {
     name: 'hero',
