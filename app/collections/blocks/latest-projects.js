@@ -1,4 +1,5 @@
 import { title } from '../fields/title.js'
+import { count } from '../fields/count.js'
 
 export const block_latestprojects = {
     name: 'latest-projects',
@@ -8,6 +9,7 @@ export const block_latestprojects = {
     i18n: true,
     collapsed: true,
     fields: [
-        title
+        title,
+        count
     ]
 }
