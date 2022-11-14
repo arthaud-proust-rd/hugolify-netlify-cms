@@ -1,3 +1,4 @@
+import { background } from '../fields/background.js'
 import { material_icons } from '../fields/material-icons.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
@@ -17,16 +18,18 @@ export const block_infos = {
         {
             name: 'items',
             label: 'Infos',
-            label_singular: 'Info',
+            label_singular: 'info',
             widget: 'list',
             required: false,
             i18n: true,
             collapsed: true,
+            summary: '{{title}}',
             fields: [
                 material_icons,
                 title,
                 text
             ]
-        }
+        },
+        background
     ]
 }

@@ -1,3 +1,4 @@
+import { background } from '../fields/background.js'
 import { title } from '../fields/title.js'
 
 export const block_title = {
@@ -8,6 +9,7 @@ export const block_title = {
     i18n: true,
     collapsed: true,
     fields: [
-        title
+        title,
+        background
     ]
 }

@@ -1,3 +1,4 @@
+import { background } from '../fields/background.js'
 import { direction } from '../fields/direction.js'
 import { title } from '../fields/title.js'
 import { text_markdown } from '../fields/text-markdown.js'
@@ -16,6 +17,7 @@ export const block_editorial = {
         title,
         text_markdown,
         cta,
-        image
+        image,
+        background
     ]
 }

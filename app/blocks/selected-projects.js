@@ -1,3 +1,4 @@
+import { background } from '../fields/background.js'
 import { title } from '../fields/title.js'
 import { projects } from '../fields/projects.js'
 
@@ -10,6 +11,7 @@ export const block_selectedprojects = {
     collapsed: true,
     fields: [
         title,
-        projects
+        projects,
+        background
     ]
 }

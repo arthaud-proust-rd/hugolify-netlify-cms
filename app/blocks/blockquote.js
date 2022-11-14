@@ -1,3 +1,4 @@
+import { background } from '../fields/background.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { image } from '../fields/image.js'
@@ -23,6 +24,7 @@ export const block_blockquote = {
                 text,
                 image
             ]
-        }
+        },
+        background
     ]
 }
