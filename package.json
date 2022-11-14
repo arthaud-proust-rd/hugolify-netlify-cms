@@ -1,0 +1,14 @@
+{
+    "name": "hugo-netlify-cms-template",
+    "version": "1.0.0",
+    "repository": "git@github.com:sebousan/hugo-netlify-cms-template.git",
+    "author": {
+        "name": "Sébastien Moulène",
+        "url": "https://www.sebousan.com/"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "netlify-cms": "^2.10.192",
+        "netlify-cms-widget-material-icons": "^4.0.3"
+    }
+}
