@@ -1,4 +1,4 @@
-import collections from './collections/index.js';
+import collections from './collections.js';
 
 export const config = {
     backend: {

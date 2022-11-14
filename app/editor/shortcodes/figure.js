@@ -1,8 +1,8 @@
 /* global CMS */
-import { image_src } from '../../collections/fields/image-src.js'
-import { image_alt } from '../../collections/fields/image-alt.js'
-import { legend } from '../../collections/fields/legend.js'
-import { credit } from '../../collections/fields/credit.js'
+import { image_src } from '../../fields/image-src.js'
+import { image_alt } from '../../fields/image-alt.js'
+import { legend } from '../../fields/legend.js'
+import { credit } from '../../fields/credit.js'
 
 CMS.registerEditorComponent({
     id: 'figure',

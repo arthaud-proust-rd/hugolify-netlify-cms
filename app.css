@@ -130,3 +130,44 @@ div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
 [class*="-TreeNavLink-TreeNavLink"] > div > div:nth-child(2) {
     display: none;
 }
+
+aside [class*="-IconWrapper"]::before {
+    content: 'settings';
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+aside [class*="-IconWrapper"] svg {
+    display: none;
+}
+aside [href="#/collections/posts"] span::before {
+    content: 'post_add';
+}
+aside [href="#/collections/authors"] span::before {
+    content: 'person';
+}
+aside [href="#/collections/categories"] span::before {
+    content: 'category';
+}
+aside [href="#/collections/projects"] span::before {
+    content: 'post_add';
+}
+aside [href="#/collections/types"] span::before {
+    content: 'category';
+}
+aside [href="#/collections/pages"] span::before {
+    content: 'description';
+}
+aside [href="#/collections/indexes"] span::before {
+    content: 'description';
+}
