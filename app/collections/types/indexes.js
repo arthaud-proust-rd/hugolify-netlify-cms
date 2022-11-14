@@ -4,7 +4,7 @@ import { blocks } from '../blocks/blocks.js'
 
 const indexes = {
     name: 'indexes',
-    label: 'Index des pages',
+    label: 'Rubriques',
     folder: 'content',
     create: true,
     description: 'Toutes les pages principales',
