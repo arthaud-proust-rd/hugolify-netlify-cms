@@ -2,7 +2,7 @@ export const body = {
     name: 'body',
     label: 'Contenu',
     widget: 'markdown',
-    editor_components: ['figure', 'twitter', 'youtube'],
+    editor_components: ['button', 'figure', 'twitter', 'youtube'],
     required: false,
     i18n: true
 }
