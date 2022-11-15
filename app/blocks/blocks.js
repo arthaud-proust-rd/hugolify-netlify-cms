@@ -3,6 +3,7 @@ import { block_blockquote } from './blockquote.js'
 import { block_editorial } from './editorial.js'
 import { block_embed } from './embed.js'
 import { block_figure } from './figure.js'
+import { block_gauges } from './gauges.js'
 import { block_infos } from './infos.js'
 import { block_latestposts } from './latest-posts.js'
 import { block_latestprojects } from './latest-projects.js'
@@ -21,6 +22,7 @@ export const blocks = {
         block_editorial,
         block_embed,
         block_figure,
+        block_gauges,
         block_infos,
         block_latestposts,
         block_latestprojects,
