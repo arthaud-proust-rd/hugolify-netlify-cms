@@ -168,6 +168,9 @@ aside [href="#/collections/projects"] span::before {
 aside [href="#/collections/types"] span::before {
     content: 'category';
 }
+aside [href="#/collections/casestudies"] span::before {
+    content: 'school';
+}
 aside [href="#/collections/publications"] span::before {
     content: 'newspaper';
 }
