@@ -1,6 +1,7 @@
 import { title } from './title.js'
 import { text } from './text.js'
 import { cta } from './cta.js'
+import { cta_second } from './cta_second.js'
 import { image } from './image.js'
 
 export const hero = {
@@ -14,6 +15,7 @@ export const hero = {
         title,
         text,
         cta,
+        cta_second,
         image
     ]
 }
