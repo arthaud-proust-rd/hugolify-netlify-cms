@@ -12,6 +12,7 @@ export const block_editorial = {
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{title}}',
     fields: [
         direction,
         title,
