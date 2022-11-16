@@ -1,5 +1,7 @@
+// Available blocks
 import { availableBlocks } from '../../settings.js'
 
+// import all blocks
 import { block_cta } from './cta.js'
 import { block_blockquote } from './blockquote.js'
 import { block_editorial } from './editorial.js'
@@ -12,8 +14,6 @@ import { block_map } from './map.js'
 import { block_paragraph } from './paragraph.js'
 import { block_selectedprojects } from './selected-projects.js'
 import { block_title } from './title.js'
-
-console.log(availableBlocks);
 
 // add selected blocks
 const selectedBlocks = [];
