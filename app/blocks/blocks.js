@@ -5,8 +5,7 @@ import { block_embed } from './embed.js'
 import { block_figure } from './figure.js'
 import { block_gauges } from './gauges.js'
 import { block_infos } from './infos.js'
-import { block_latestposts } from './latest-posts.js'
-import { block_latestprojects } from './latest-projects.js'
+import { block_latest } from './latest.js'
 import { block_map } from './map.js'
 import { block_paragraph } from './paragraph.js'
 import { block_selectedprojects } from './selected-projects.js'
@@ -19,17 +18,16 @@ export const blocks = {
     widget: 'list',
     types: [
         block_cta,
+        block_map,
         block_blockquote,
+        block_latest,
         block_editorial,
         block_embed,
         block_figure,
-        block_gauges,
         block_infos,
-        block_latestposts,
-        block_latestprojects,
-        block_map,
         block_paragraph,
         block_selectedprojects,
+        block_gauges,
         block_title
     ]
 }

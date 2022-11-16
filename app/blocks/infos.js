@@ -11,6 +11,7 @@ export const block_infos = {
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{title}}',
     fields: [
         title,
         text,

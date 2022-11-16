@@ -9,6 +9,7 @@ export const block_latestprojects = {
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{title}}',
     fields: [
         title,
         count,

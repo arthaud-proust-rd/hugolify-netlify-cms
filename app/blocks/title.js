@@ -8,6 +8,7 @@ export const block_title = {
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{title}}',
     fields: [
         title,
         background

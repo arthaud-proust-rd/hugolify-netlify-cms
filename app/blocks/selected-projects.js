@@ -9,6 +9,7 @@ export const block_selectedprojects = {
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{title}}',
     fields: [
         title,
         projects,

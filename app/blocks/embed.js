@@ -5,11 +5,12 @@ import { embed } from '../fields/embed.js'
 
 export const block_embed = {
     name: 'embed',
-    label: 'Embed',
+    label: 'Embed (iframe)',
     widget: 'object',
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{title}}',
     fields: [
         title,
         text,
