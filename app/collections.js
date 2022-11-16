@@ -1,5 +1,5 @@
 // Available collections
-import settings from './settings.js'
+import availableCollections from '../settings.js'
 
 // Types
 import col_posts from './content/posts.js';
@@ -17,8 +17,8 @@ import config from './data/config.js';
 
 // add selected collections
 const selectedCollections = [];
-settings.forEach(element => {
-    if (settings.includes(element)) {
+availableCollections.forEach(element => {
+    if (availableCollections.includes(element)) {
         selectedCollections.push(eval('col_' + element));
     }
 });

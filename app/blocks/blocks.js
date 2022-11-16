@@ -1,3 +1,5 @@
+import { availableBlocks } from '../../settings.js'
+
 import { block_cta } from './cta.js'
 import { block_blockquote } from './blockquote.js'
 import { block_editorial } from './editorial.js'
@@ -11,23 +13,20 @@ import { block_paragraph } from './paragraph.js'
 import { block_selectedprojects } from './selected-projects.js'
 import { block_title } from './title.js'
 
+console.log(availableBlocks);
+
+// add selected blocks
+const selectedBlocks = [];
+availableBlocks.forEach(element => {
+    if (availableBlocks.includes(element)) {
+        selectedBlocks.push(eval('block_' + element));
+    }
+});
+
 export const blocks = {
     name: 'blocks',
     label: 'Blocs de contenu',
     label_singular: 'Bloc de contenu',
     widget: 'list',
-    types: [
-        block_cta,
-        block_map,
-        block_blockquote,
-        block_latest,
-        block_editorial,
-        block_embed,
-        block_figure,
-        block_infos,
-        block_paragraph,
-        block_selectedprojects,
-        block_gauges,
-        block_title
-    ]
-}
+    types: selectedBlocks
+};

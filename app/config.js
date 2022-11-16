@@ -1,4 +1,3 @@
-
 import backend from './config/backend.js';
 import load_config_file from './config/load_config_file.js';
 import local_backend from './config/local_backend.js';
@@ -28,7 +27,5 @@ export const config = {
     slug,
     collections
 }
-
-console.log(config);
 
 export default config
