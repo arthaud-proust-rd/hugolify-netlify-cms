@@ -3,7 +3,7 @@ import { availableBlocks } from '../../settings.js'
 
 // import all blocks
 import { block_cta } from './cta.js'
-import { block_blockquote } from './blockquote.js'
+import { block_quote } from './quote.js'
 import { block_editorial } from './editorial.js'
 import { block_embed } from './embed.js'
 import { block_figure } from './figure.js'

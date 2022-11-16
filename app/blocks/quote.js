@@ -3,8 +3,8 @@ import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { image } from '../fields/image.js'
 
-export const block_blockquote = {
-    name: 'blockquote',
+export const block_quote = {
+    name: 'quote',
     label: 'Citation',
     widget: 'object',
     required: false,
