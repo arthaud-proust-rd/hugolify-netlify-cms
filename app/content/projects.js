@@ -29,11 +29,11 @@ const projects = {
     fields: [
         index,
         draft,
-        title,
         date,
+        title,
+        description,
         types,
         featured_image,
-        description,
         datas,
         images,
         body

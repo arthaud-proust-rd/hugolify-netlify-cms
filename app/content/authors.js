@@ -31,8 +31,8 @@ const authors = {
         index,
         draft,
         title,
-        featured_image,
         description,
+        featured_image,
         email,
         twitter,
         website

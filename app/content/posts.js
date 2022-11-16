@@ -29,12 +29,12 @@ const posts = {
     fields: [
         index,
         draft,
-        title,
         date,
+        title,
+        description,
         categories,
         authors,
         featured_image,
-        description,
         body
     ]
 }
