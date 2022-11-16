@@ -15,17 +15,20 @@ import col_indexes from './content/indexes.js';
 // Data
 import config from './data/config.js';
 
-// add selected collections
 const selectedCollections = [];
+
+// add mandory collections
+selectedCollections.push(col_indexes);
+selectedCollections.push(col_pages);
+
+// add selected collections
 availableCollections.forEach(element => {
     if (availableCollections.includes(element)) {
         selectedCollections.push(eval('col_' + element));
     }
 });
 
-// add required collections
-selectedCollections.push(col_indexes);
-selectedCollections.push(col_pages);
+// add config
 selectedCollections.push(config);
 
 export const collections = selectedCollections;
