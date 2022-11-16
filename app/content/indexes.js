@@ -6,7 +6,7 @@ const indexes = {
     name: 'indexes',
     label: 'Rubriques',
     folder: 'content',
-    create: true,
+    create: false,
     description: 'Toutes les pages principales',
 
     editor: { preview: false },
