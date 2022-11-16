@@ -7,6 +7,7 @@ import { block_gauges } from './gauges.js'
 import { block_infos } from './infos.js'
 import { block_latestposts } from './latest-posts.js'
 import { block_latestprojects } from './latest-projects.js'
+import { block_map } from './map.js'
 import { block_paragraph } from './paragraph.js'
 import { block_selectedprojects } from './selected-projects.js'
 import { block_title } from './title.js'
@@ -26,6 +27,7 @@ export const blocks = {
         block_infos,
         block_latestposts,
         block_latestprojects,
+        block_map,
         block_paragraph,
         block_selectedprojects,
         block_title
