@@ -1,8 +1,12 @@
-import { background } from '../fields/background.js'
-import { value } from '../fields/value.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { column } from '../fields/column.js'
+import { show_color } from '../fields/show-color.js'
+import { prefix } from '../fields/prefix.js'
+import { value_number } from '../fields/value-number.js'
+import { suffix } from '../fields/suffix.js'
+import { limit } from '../fields/limit.js'
+import { background } from '../fields/background.js'
 
 export const block_gauges = {
     name: 'gauges',
@@ -16,6 +20,7 @@ export const block_gauges = {
         title,
         text,
         column,
+        show_color,
         {
             name: 'items',
             label: 'Statistiques',
@@ -26,7 +31,10 @@ export const block_gauges = {
             collapsed: true,
             summary: '{{title}}',
             fields: [
-                value,
+                prefix,
+                value_number,
+                suffix,
+                limit,
                 title,
                 text
             ]

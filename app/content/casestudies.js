@@ -2,7 +2,7 @@ import { index } from '../fields/index.js'
 import { draft } from '../fields/draft.js'
 import { date } from '../fields/date.js'
 import { description } from '../fields/description.js'
-import { image } from '../fields/image.js'
+import { featured_image } from '../fields/featured-image.js'
 import { title } from '../fields/title.js'
 import { hero } from '../fields/hero.js'
 import { blocks } from '../blocks/blocks.js'
@@ -31,7 +31,7 @@ const casestudies = {
         date,
         title,
         description,
-        image,
+        featured_image,
         hero,
         blocks
     ]
