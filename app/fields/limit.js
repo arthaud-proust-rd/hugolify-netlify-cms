@@ -4,5 +4,6 @@ export const limit = {
     widget: 'number',
     required: true,
     default: 100,
+    hint: 'ex: 100',
     i18n: 'duplicate'
 }
