@@ -14,7 +14,7 @@ CMS.registerEditorComponent({
             widget: 'string'
         }
     ],
-    pattern: /{{< youtube (.*?) }}/,
+    pattern: /{{< youtube id="(.*)" title="(.*)" >}}/,
     fromBlock: function (match) {
         return {
             id: match[1],
