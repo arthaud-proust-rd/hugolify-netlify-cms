@@ -28,8 +28,8 @@ const publications = {
     fields: [
         index,
         draft,
-        title,
         date,
+        title,
         description,
         target,
         featured_image,

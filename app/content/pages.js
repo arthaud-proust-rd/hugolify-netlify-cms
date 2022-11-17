@@ -27,9 +27,9 @@ const pages = {
         index,
         draft,
         title,
+        description,
         hero,
         featured_image,
-        description,
         body
     ]
 }

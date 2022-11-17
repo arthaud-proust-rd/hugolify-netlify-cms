@@ -7,7 +7,7 @@ import { image } from '../fields/image.js'
 
 export const block_editorial = {
     name: 'editorial',
-    label: 'Editorial',
+    label: 'Editorial (contenu et image)',
     widget: 'object',
     required: false,
     i18n: true,
