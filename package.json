@@ -1,7 +1,7 @@
 {
-    "name": "hugo-netlify-cms-template",
+    "name": "hugolify-netlify-cms-template",
     "version": "1.0.0",
-    "repository": "git@github.com:sebousan/hugo-netlify-cms-template.git",
+    "repository": "git@github.com:sebousan/hugolify-netlify-cms-template.git",
     "author": {
         "name": "Sébastien Moulène",
         "url": "https://www.sebousan.com/"
