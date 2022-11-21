@@ -1,12 +1,13 @@
-import { material_icons } from '../fields/material-icons.js'
+import { image } from '../fields/image.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
+import { cta } from '../fields/cta.js'
 import { column } from '../fields/column.js'
 import { background } from '../fields/background.js'
 
-export const block_infos = {
-    name: 'infos',
-    label: 'Informations en colonne',
+export const block_pushes = {
+    name: 'pushes',
+    label: 'Pushes en colonne',
     widget: 'object',
     required: false,
     i18n: true,
@@ -18,17 +19,18 @@ export const block_infos = {
         column,
         {
             name: 'items',
-            label: 'Infos',
-            label_singular: 'info',
+            label: 'Pushes',
+            label_singular: 'push',
             widget: 'list',
             required: false,
             i18n: true,
             collapsed: true,
             summary: '{{title}}',
             fields: [
-                material_icons,
+                image,
                 title,
-                text
+                text,
+                cta
             ]
         },
         background
