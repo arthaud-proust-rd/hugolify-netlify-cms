@@ -7,7 +7,7 @@ import { background } from '../fields/background.js'
 
 export const block_pushes = {
     name: 'pushes',
-    label: 'Pushes en colonne',
+    label: 'Blocs pushes (en colonne)',
     widget: 'object',
     required: false,
     i18n: true,

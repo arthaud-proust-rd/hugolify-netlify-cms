@@ -6,7 +6,7 @@ import { background } from '../fields/background.js'
 
 export const block_infos = {
     name: 'infos',
-    label: 'Informations en colonne',
+    label: 'Blocs informations (en colonne)',
     widget: 'object',
     required: false,
     i18n: true,

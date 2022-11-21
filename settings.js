@@ -17,6 +17,8 @@ export const availableTypeSection = [
 
 export const availableBlocks = [
     'alert',
+    'infos',
+    'pushes',
     'cta',
     'map',
     'quote',
@@ -25,7 +27,6 @@ export const availableBlocks = [
     'embed',
     'gallery',
     'figure',
-    'infos',
     'images',
     'paragraph',
     'selectedprojects',

@@ -15,6 +15,7 @@ import { block_infos } from './infos.js'
 import { block_latest } from './latest.js'
 import { block_map } from './map.js'
 import { block_paragraph } from './paragraph.js'
+import { block_pushes } from './pushes.js'
 import { block_selectedprojects } from './selected-projects.js'
 import { block_title } from './title.js'
 
