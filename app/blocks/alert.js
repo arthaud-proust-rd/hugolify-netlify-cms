@@ -2,7 +2,7 @@ import { text_markdown } from '../fields/text-markdown.js'
 import { state } from '../fields/state.js'
 import { background } from '../fields/background.js'
 
-export const block_editorial = {
+export const block_alert = {
     name: 'alert',
     label: 'Alerte',
     widget: 'object',
