@@ -2,6 +2,7 @@
 import { availableBlocks } from '../../settings.js'
 
 // import all blocks
+import { block_alert } from './alert.js'
 import { block_cta } from './cta.js'
 import { block_quote } from './quote.js'
 import { block_editorial } from './editorial.js'

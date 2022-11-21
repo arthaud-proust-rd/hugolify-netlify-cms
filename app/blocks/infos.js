@@ -1,8 +1,9 @@
-import { background } from '../fields/background.js'
 import { material_icons } from '../fields/material-icons.js'
+import { image } from '../fields/image.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { column } from '../fields/column.js'
+import { background } from '../fields/background.js'
 
 export const block_infos = {
     name: 'infos',
@@ -27,6 +28,7 @@ export const block_infos = {
             summary: '{{title}}',
             fields: [
                 material_icons,
+                image,
                 title,
                 text
             ]
