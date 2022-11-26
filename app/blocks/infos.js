@@ -1,4 +1,4 @@
-import { material_icons } from '../fields/material-icons.js'
+import { icons } from '../fields/icons.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { column } from '../fields/column.js'
@@ -26,7 +26,7 @@ export const block_infos = {
             collapsed: true,
             summary: '{{title}}',
             fields: [
-                material_icons,
+                icons,
                 title,
                 text
             ]
