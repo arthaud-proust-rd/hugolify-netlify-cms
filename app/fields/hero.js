@@ -1,5 +1,5 @@
 import { title } from './title.js'
-import { text } from './text.js'
+import { text_markdown } from './text-markdown.js'
 import { cta } from './cta.js'
 import { cta_second } from './cta_second.js'
 import { image } from './image.js'
@@ -13,7 +13,7 @@ export const hero = {
     collapsed: true,
     fields: [
         title,
-        text,
+        text_markdown,
         cta,
         cta_second,
         image
