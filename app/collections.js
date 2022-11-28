@@ -4,6 +4,7 @@ import { availableCollections } from '../settings.js'
 // Types
 import col_posts from './content/posts.js';
 import col_categories from './content/categories.js';
+import col_tags from './content/tags.js';
 import col_authors from './content/authors.js';
 import col_projects from './content/projects.js';
 import col_types from './content/types.js';

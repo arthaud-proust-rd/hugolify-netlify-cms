@@ -4,7 +4,7 @@ export const categories = {
     widget: 'relation',
     collection: 'categories',
     search_fields: ['title'],
-    value_field: '{{slug}}',
+    value_field: 'title',
     display_fields: ['title'],
     required: false
 }

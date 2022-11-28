@@ -6,6 +6,7 @@ import { description } from '../fields/description.js'
 import { featured_image } from '../fields/featured-image.js'
 import { body } from '../fields/body.js'
 import { categories } from '../fields/categories.js'
+import { tags } from '../fields/tags.js'
 import { authors } from '../fields/authors.js'
 
 const posts = {
@@ -33,6 +34,7 @@ const posts = {
         title,
         description,
         categories,
+        tags,
         authors,
         featured_image,
         body
