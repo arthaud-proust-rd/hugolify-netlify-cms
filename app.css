@@ -20,6 +20,9 @@ header nav::before {
     width: 40px;
 }
 
+[class*="-CustomIconWrapper"] {
+    text-align: center;
+}
 [class*="-CustomIconWrapper"] img {
     height: 50px;
     width: 50px;
