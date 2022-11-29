@@ -20,6 +20,11 @@ header nav::before {
     width: 40px;
 }
 
+[class*="-CustomIconWrapper"] img {
+    height: 50px;
+    width: 50px;
+}
+
 input[type="text"],
 input[type="number"],
 textarea {
