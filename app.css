@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Material+Icons");
 
 :root {
+    --primary-color: #060c84;
     --text-color: black;
     --grey: rgb(240, 240, 240);
     --midgrey: rgb(245, 245, 245);
@@ -9,12 +10,26 @@
     --margin: 20px;
 }
 
+header nav::before {
+    background: url("./logo-hugolify.svg") no-repeat;
+    background-size: contain;
+    content: '';
+    float: left;
+    height: 40px;
+    margin-top: 8px;
+    width: 40px;
+}
+
 input[type="text"],
 input[type="number"],
 textarea {
     border: 1px solid var(--grey) !important;
     border-radius: var(--border-radius) !important;
     padding: 15px !important;
+}
+
+[aria-current="page"] {
+    color: var(--primary-color) !important;
 }
 
 [class*="-ControlContainer"] {
