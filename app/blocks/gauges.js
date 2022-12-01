@@ -10,7 +10,7 @@ import { background } from '../fields/background.js'
 
 export const block_gauges = {
     name: 'gauges',
-    label: 'Statistiques en colonne',
+    label: 'Blocs statistiques (en colonne)',
     widget: 'object',
     required: false,
     i18n: true,
