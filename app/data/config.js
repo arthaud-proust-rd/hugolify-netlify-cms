@@ -1,5 +1,7 @@
 import { links } from '../fields/links.js'
 import { description } from '../fields/description.js'
+import { text_markdown } from '../fields/text-markdown.js'
+import { state } from '../fields/state.js'
 import { image_src } from '../fields/image-src.js'
 
 const config = {
@@ -44,6 +46,16 @@ const config = {
             i18n: true,
             fields: [
                 links
+            ]
+        },
+        {
+            name: 'top',
+            label: 'Bannière d’information en haut du site',
+            file: 'data/top.yml',
+            i18n: true,
+            fields: [
+                text_markdown,
+                state
             ]
         },
         {
