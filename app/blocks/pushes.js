@@ -1,4 +1,5 @@
-import { image } from '../fields/image.js'
+import { image_src } from '../fields/image-src.js'
+import { image_alt } from '../fields/image-alt.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { cta } from '../fields/cta.js'
@@ -7,7 +8,7 @@ import { background } from '../fields/background.js'
 
 export const block_pushes = {
     name: 'pushes',
-    label: 'Blocs pushes (en colonne)',
+    label: 'Blocs push (en colonne)',
     widget: 'object',
     required: false,
     i18n: true,
@@ -27,7 +28,19 @@ export const block_pushes = {
             collapsed: true,
             summary: '{{title}}',
             fields: [
-                image,
+                {
+                    name: 'image',
+                    label: 'Image',
+                    widget: 'object',
+                    required: false,
+                    i18n: true,
+                    collapsed: true,
+                    fields: [
+                        image_src,
+                        image_alt,
+                        { name: 'logo', label: 'Logo?', widget: 'boolean', required: false, hint: 'Pour centrer l’image dans une case', i18n: 'duplicate' }
+                    ]
+                },
                 title,
                 text,
                 cta
