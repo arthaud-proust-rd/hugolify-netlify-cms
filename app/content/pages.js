@@ -23,6 +23,7 @@ const pages = {
     path: '{{slug}}/_index',
 
     nested: { depth: 3 },
+    meta: { path: { widget: string, label: 'Path', index_file: 'index', pattern: ['.*',] } },
 
     fields: [
         index,
