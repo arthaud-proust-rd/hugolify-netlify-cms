@@ -5,6 +5,7 @@ import { hero } from '../fields/hero.js'
 import { featured_image } from '../fields/featured-image.js'
 import { description } from '../fields/description.js'
 import { body } from '../fields/body.js'
+import { blocks } from '../blocks/blocks.js'
 
 const pages = {
     name: 'pages',
@@ -28,9 +29,10 @@ const pages = {
         draft,
         title,
         description,
-        hero,
         featured_image,
-        body
+        hero,
+        body,
+        blocks
     ]
 }
 
