@@ -20,6 +20,7 @@ export const availableBlocks = [
     'alert',
     'infos',
     'pushes',
+    'datas',
     'cta',
     'map',
     'quote',
@@ -31,6 +32,5 @@ export const availableBlocks = [
     'images',
     'paragraph',
     'selectedprojects',
-    'gauges',
     'title'
 ];
