@@ -1,6 +1,6 @@
-import { background } from '../fields/background.js'
 import { title } from '../fields/title.js'
 import { text_markdown } from '../fields/text-markdown.js'
+import { background } from '../fields/background.js'
 
 export const block_paragraph = {
     name: 'paragraph',

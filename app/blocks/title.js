@@ -1,5 +1,5 @@
-import { background } from '../fields/background.js'
 import { title } from '../fields/title.js'
+import { background } from '../fields/background.js'
 
 export const block_title = {
     name: 'title',

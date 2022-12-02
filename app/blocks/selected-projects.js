@@ -1,6 +1,6 @@
-import { background } from '../fields/background.js'
 import { title } from '../fields/title.js'
 import { projects } from '../fields/projects.js'
+import { background } from '../fields/background.js'
 
 export const block_selectedprojects = {
     name: 'selected-projects',

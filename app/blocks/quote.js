@@ -1,7 +1,7 @@
-import { background } from '../fields/background.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { image } from '../fields/image.js'
+import { background } from '../fields/background.js'
 
 export const block_quote = {
     name: 'quote',
