@@ -34,14 +34,7 @@ const pages = {
         body,
         blocks
     ],
-    meta: { 
-        path: { 
-            widget: 'string', 
-            label: 'Path', 
-            index_file: '_index', 
-            pattern: ['.*',]
-        }
-    }
+    meta: { path: { label: 'Page parente', widget: 'parent', index_file: '_index' } }
 }
 
 export default pages
