@@ -10,7 +10,7 @@ export const block_cta =  {
     required: false,
     i18n: true,
     collapsed: true,
-    summary: '{{title}}',
+    summary: '{{cta.text}}',
     fields: [
         title,
         text,
