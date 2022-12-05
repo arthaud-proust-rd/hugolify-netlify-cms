@@ -169,7 +169,8 @@ aside ul [class*="-IconWrapper"]::before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-aside ul [class*="-IconWrapper"] svg {
+aside ul [class*="-IconWrapper"] svg,
+aside h2 {
     display: none;
 }
 aside ul span::before {
