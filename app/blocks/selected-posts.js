@@ -1,11 +1,11 @@
 import { title } from '../fields/title.js'
-import { projects } from '../fields/projects.js'
+import { posts } from '../fields/posts.js'
 import { show_more } from '../fields/show-more.js'
 import { background } from '../fields/background.js'
 
-export const block_selectedprojects = {
-    name: 'selected-projects',
-    label: 'Selection de projets',
+export const block_selectedposts = {
+    name: 'selected-posts',
+    label: 'Selection d’actualités',
     widget: 'object',
     required: false,
     i18n: true,
@@ -13,8 +13,8 @@ export const block_selectedprojects = {
     summary: '{{title}}',
     fields: [
         title,
-        { name: 'section', default: 'projects', widget: 'hidden' },
-        projects,
+        { name: 'section', default: 'posts', widget: 'hidden' },
+        posts,
         show_more,
         background
     ]

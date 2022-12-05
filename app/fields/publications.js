@@ -1,8 +1,8 @@
-export const projects = {
+export const publications = {
     name: 'items',
-    label: 'Projets',
+    label: 'Parutions',
     widget: 'relation',
-    collection: 'projects',
+    collection: 'publications',
     multiple: true,
     search_fields: ['title'],
     value_field: '{{slug}}',

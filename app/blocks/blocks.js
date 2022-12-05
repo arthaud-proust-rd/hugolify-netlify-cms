@@ -16,7 +16,10 @@ import { block_latest } from './latest.js'
 import { block_map } from './map.js'
 import { block_paragraph } from './paragraph.js'
 import { block_pushes } from './pushes.js'
+import { block_selectedcasestudies } from './selected-casestudies.js'
+import { block_selectedposts } from './selected-posts.js'
 import { block_selectedprojects } from './selected-projects.js'
+import { block_selectedpublications } from './selected-publications.js'
 import { block_title } from './title.js'
 
 // add selected blocks

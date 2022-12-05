@@ -1,8 +1,8 @@
-export const projects = {
+export const casestudies = {
     name: 'items',
-    label: 'Projets',
+    label: 'Cas d’études',
     widget: 'relation',
-    collection: 'projects',
+    collection: 'casestudies',
     multiple: true,
     search_fields: ['title'],
     value_field: '{{slug}}',
