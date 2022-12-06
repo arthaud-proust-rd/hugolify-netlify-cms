@@ -7,7 +7,7 @@ const indexes = {
     label: 'Rubriques',
     folder: 'content',
     create: false,
-    description: 'Toutes les pages principales',
+    description: 'La page principale de chaque rubrique',
 
     editor: { preview: false },
 

@@ -3,6 +3,7 @@ import { description } from '../fields/description.js'
 import { text_markdown } from '../fields/text-markdown.js'
 import { state } from '../fields/state.js'
 import { image_src } from '../fields/image-src.js'
+import { embed } from '../fields/embed.js'
 
 const config = {
     name: 'config',
@@ -67,6 +68,15 @@ const config = {
                 { name: 'title', label: 'Nom du site', widget: 'string', i18n: true },
                 description,
                 image_src
+            ]
+        },
+        {
+            name: 'analytics',
+            label: 'Scripts analytics',
+            file: 'data/scripts.yml',
+            i18n: true,
+            fields: [
+                embed
             ]
         }
 
