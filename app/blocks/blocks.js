@@ -25,9 +25,7 @@ import { block_title } from './title.js'
 // add selected blocks
 const selectedBlocks = [];
 availableBlocks.forEach(element => {
-    if (availableBlocks.includes(element)) {
-        selectedBlocks.push(eval('block_' + element));
-    }
+    selectedBlocks.push(eval('block_' + element));
 });
 
 export const blocks = {

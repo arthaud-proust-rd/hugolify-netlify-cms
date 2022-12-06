@@ -1,6 +1,7 @@
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { map } from '../fields/map.js'
+import { zoom } from '../fields/zoom.js'
 import { background } from '../fields/background.js'
 
 export const block_map = {
@@ -15,6 +16,7 @@ export const block_map = {
         title,
         text,
         map,
+        zoom,
         background
     ]
 }
