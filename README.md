@@ -1,48 +1,52 @@
 # Hugo Netlify CMS Template
 
-## Table des matières
+## Table of contents
 
-- [Fonctionnalités](#fonctionnalités)
-- [Captures d’écran](#captures-décran)
-- [Dépots liés](#dépots-liés)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Linked repositories](#linked-repositories)
 - [Live demo](#live-demo)
 - [Installation](#installation)
+- [Documentations](#documentations)
 - [License](#license)
 
 
-## Fonctionnalités
+## Features
+- rubrics `create false`
+- pages
 - projects
 - types (projects taxonomy)
 - posts
 - authors (post taxonomy)
 - categories (post taxonomy)
-- pages
-- index pages `create false`
-  - home
-  - posts
-  - authors
-- menu `create false`
-  - primary
-  - secondary
-  - legal
-  - social  
+- tags (post taxonomy)
 - config
+  - menu `create false`
+    - primary
+    - secondary
+    - legal
+    - social
+  - top banner
+  - seo
 
-## Captures d’écran
+## Screenshot
 ![screenshot-admin-posts](https://user-images.githubusercontent.com/4457294/194070621-5cde9d70-54dd-4f48-a3cb-94869699c0ce.png)
 
-## Dépots liés
-* Template Hugo : [Hugo template](https://github.com/sebousan/hugo-template)
-* Theme Hugo : [Hugo theme](https://github.com/sebousan/hugo-theme)
+## Linked repositories
+* Template Hugolify : [Hugolify template](https://github.com/sebousan/hugolify-template)
+* Theme Hugolify : [Hugolify theme](https://github.com/sebousan/hugolify-theme)
 
 ## Live demo
-- Front : https://sebousan-hugo-theme.netlify.app
+- Front: https://demo.hugolify.com
 
-## Installation 
-Ajouter ce repository en tant que subdomaine dans votre projet hugo :
+## Install
+Add this repository as a subdomain in your hugo project:
 ```
-git submodule add git@github.com:sebousan/hugo-netlify-cms-template static/admin
+git submodule add git@github.com:sebousan/hugolify-netlify-cms-template static1/admin
 ```
+
+## Documentations
+https://github.com/sebousan/hugolify-template/wiki
 
 ## License
-Ce repository est sous licence MIT
+Hugolify is free for personal or commercial projects (MIT license)
