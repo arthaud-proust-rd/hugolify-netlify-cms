@@ -3,7 +3,7 @@ import { image_alt } from '../fields/image-alt.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { cta } from '../fields/cta.js'
-import { column } from '../fields/column.js'
+import { align } from '../fields/align.js'
 import { background } from '../fields/background.js'
 
 export const block_pushes = {
@@ -17,7 +17,16 @@ export const block_pushes = {
     fields: [
         title,
         text,
-        column,
+        { 
+            name: 'column',
+            label: 'Nombre de colonnes',
+            widget: 'number',
+            min: 1,
+            max: 2,
+            value_type: 'int',
+            default: 1,
+            i18n: 'duplicate'
+        },
         {
             name: 'items',
             label: 'Pushes',
@@ -38,9 +47,9 @@ export const block_pushes = {
                     fields: [
                         image_src,
                         image_alt,
-                        { name: 'logo', label: 'Logo?', widget: 'boolean', required: false, hint: 'Pour centrer l’image dans une case', i18n: 'duplicate' }
                     ]
                 },
+                align,
                 title,
                 text,
                 cta
