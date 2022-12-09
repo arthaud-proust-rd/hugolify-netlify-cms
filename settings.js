@@ -19,7 +19,7 @@ export const availableTypeSection = [
 export const availableBlocks = [
     'alert',
     'cta',
-    'infos',
+    'informations',
     'pushes',
     'datas',
     'map',
