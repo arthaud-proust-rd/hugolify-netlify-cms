@@ -1,4 +1,4 @@
-export const direction = {
+export const align = {
     name: 'align',
     title: 'Alignement',
     widget: 'select',
