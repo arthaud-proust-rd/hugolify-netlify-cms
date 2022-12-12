@@ -1,5 +1,5 @@
 // Available collections
-import { availableCollections } from '../settings.js'
+import { availableCollections } from './settings/available-collections.js';
 
 // Types
 import col_posts from './content/posts.js';

@@ -1,5 +1,5 @@
 // Available blocks
-import { availableBlocks } from '../../settings.js'
+import { availableBlocks } from '../settings/available-blocks.js';
 
 // import all blocks
 import { block_alert } from './alert.js'
