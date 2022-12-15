@@ -6,7 +6,7 @@
 - [Screenshot](#screenshot)
 - [Linked repositories](#linked-repositories)
 - [Live demo](#live-demo)
-- [Installation](#installation)
+- [Install](#install)
 - [Documentations](#documentations)
 - [License](#license)
 
@@ -30,7 +30,7 @@
   - seo
 
 ## Screenshot
-![screenshot-admin-posts](https://user-images.githubusercontent.com/4457294/194070621-5cde9d70-54dd-4f48-a3cb-94869699c0ce.png)
+![Home](https://user-images.githubusercontent.com/4457294/207929597-f0d02e09-d2ee-44ca-8c65-efad0293356b.png)
 
 ## Linked repositories
 * Template Hugolify : [Hugolify template](https://github.com/sebousan/hugolify-template)
