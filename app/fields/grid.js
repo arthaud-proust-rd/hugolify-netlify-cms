@@ -5,7 +5,8 @@ export const grid = {
     options: [
         { label: 'Petit', value: 'small' },
         { label: 'Moyen', value: 'medium' },
-        { label: 'Large', value: 'large' }
+        { label: 'Large', value: 'large' },
+        { label: 'Full', value: 'full' }
     ],
     default: 'large',
     required: true,
