@@ -1,8 +1,8 @@
-import { title } from '../fields/title.js'
-import { text } from '../fields/text.js'
-import { column } from '../fields/column.js'
-import { gallery } from '../fields/gallery.js'
-import { background } from '../fields/background.js'
+import { title } from '../fields/title.js';
+import { text } from '../fields/text.js';
+import { column } from '../fields/column.js';
+import { gallery } from '../fields/gallery.js';
+import { background } from '../fields/background.js';
 
 export const block_gallery = {
     name: 'gallery',
@@ -19,4 +19,4 @@ export const block_gallery = {
         gallery,
         background
     ]
-}
+};

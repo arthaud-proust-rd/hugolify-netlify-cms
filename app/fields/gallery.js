@@ -14,4 +14,4 @@ export const gallery = {
         credit,
         legend
     ]
-}
+};
