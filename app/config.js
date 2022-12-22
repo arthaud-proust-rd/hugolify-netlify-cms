@@ -11,7 +11,9 @@ import locale from './config/locale.js';
 import slug from './config/slug.js';
 import collections from './collections.js';
 
-export const config = {
+import { mediaLibrary } from './settings/media-library.js';
+
+export let config = {
     backend,
     load_config_file,
     local_backend,
@@ -23,13 +25,17 @@ export const config = {
     // i18n,
 
     // files
-    media_library,
     media_folder,
     public_folder,
 
     // content
     slug,
     collections
+}
+
+// If media library
+if (mediaLibrary) {
+    config.media_library = media_library;
 }
 
 export default config

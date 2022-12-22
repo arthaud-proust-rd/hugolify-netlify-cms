@@ -1,14 +1,8 @@
+// https://www.netlifycms.org/docs/cloudinary/
+// https://www.netlifycms.org/docs/netlify-large-media/
 // https://www.netlifycms.org/docs/uploadcare/
-import { uploadcarePublicKey } from '../settings/uploadcare-public-key.js';
+import { mediaLibrary } from '../settings/media-library.js';
 
-let media_library = {};
-if (uploadcarePublicKey !== '') {
-    media_library = {
-        name: 'uploadcare',
-        config: {
-            publicKey: uploadcarePublicKey
-        }
-    };
-}
+const media_library = mediaLibrary;
 
 export default media_library;
