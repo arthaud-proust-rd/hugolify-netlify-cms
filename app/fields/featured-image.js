@@ -8,7 +8,7 @@ export const featured_image = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     fields: [
         image_src,
         image_alt,
