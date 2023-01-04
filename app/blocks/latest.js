@@ -11,7 +11,7 @@ export const block_latest = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{title}}',
     fields: [
         section,

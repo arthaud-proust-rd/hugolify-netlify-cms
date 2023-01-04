@@ -7,7 +7,7 @@ export const block_title = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{title}}',
     fields: [
         title,

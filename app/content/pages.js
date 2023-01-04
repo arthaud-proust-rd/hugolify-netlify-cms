@@ -24,6 +24,13 @@ const pages = {
 
     nested: { depth: 3 },
 
+    widgets: {
+        name: "slug",
+        label: "Slug",
+        field: "title",
+        widget: "string"
+    },
+
     fields: [
         index,
         draft,

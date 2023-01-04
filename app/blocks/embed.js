@@ -9,7 +9,7 @@ export const block_embed = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{title}}',
     fields: [
         title,

@@ -8,7 +8,7 @@ export const block_figure = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{title}}',
     fields: [
         figure,

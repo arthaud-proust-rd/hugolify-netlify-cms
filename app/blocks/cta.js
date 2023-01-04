@@ -9,7 +9,7 @@ export const block_cta =  {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{cta.text}}',
     fields: [
         title,

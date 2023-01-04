@@ -10,7 +10,7 @@ export const block_paragraph = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{title}}',
     fields: [
         title,

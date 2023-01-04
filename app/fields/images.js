@@ -8,6 +8,7 @@ export const images = {
     name: 'images',
     label: 'Liste d’images',
     widget: 'list',
+    collapse: false,
     i18n: true,
     fields: [
         image_src,

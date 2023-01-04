@@ -8,7 +8,7 @@ export const block_alert = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{text_markdown}}',
     fields: [
         text_markdown,

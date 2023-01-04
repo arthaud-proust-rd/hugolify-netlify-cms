@@ -11,7 +11,7 @@ export const block_editorial = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{title}}',
     fields: [
         direction,
