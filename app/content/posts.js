@@ -17,7 +17,6 @@ const posts = {
     create: true,
 
     editor: { preview: false },
-    // preview_path: "/news/",
 
     // #i18n: true,
 

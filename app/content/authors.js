@@ -16,7 +16,6 @@ const authors = {
     description: 'Tous les auteurs d’actualités',
 
     editor: { preview: false },
-    // preview_path: "/authors/",
 
     // #i18n: true,
 

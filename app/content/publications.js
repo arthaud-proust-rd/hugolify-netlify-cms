@@ -16,7 +16,6 @@ const publications = {
     create: true,
 
     editor: { preview: false },
-    // preview_path: "/publications/",
 
     // #i18n: true,
 

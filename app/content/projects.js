@@ -17,7 +17,6 @@ const projects = {
     create: true,
 
     editor: { preview: false },
-    // preview_path: "/projects/",
 
     // #i18n: true,
 

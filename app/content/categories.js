@@ -10,7 +10,6 @@ const categories = {
     description: 'Toutes les catégories d’actualités',
 
     editor: { preview: false },
-    // preview_path: "/categories/",
 
     // #i18n: true,
 

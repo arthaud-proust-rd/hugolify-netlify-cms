@@ -10,7 +10,6 @@ const tags = {
     description: 'Toutes les tags d’actualités',
 
     editor: { preview: false },
-    // preview_path: "/tags/",
 
     // #i18n: true,
 

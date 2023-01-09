@@ -10,7 +10,6 @@ const types = {
     description: 'Tous les types de projets',
 
     editor: { preview: false },
-    // preview_path: "/types/",
 
     // #i18n: true,
 

@@ -15,7 +15,6 @@ const casestudies = {
     create: true,
 
     editor: { preview: false },
-    // preview_path: "/casestudies/",
 
     // #i18n: true,
 
