@@ -2,9 +2,8 @@
 // import CMS, { init } from 'netlify-cms'
 const { CMS, initCMS: init } = window;
 
-// Widgets
-const parentWidget = window.NetlifyCmsWidgetParent;
-CMS.registerWidget('parent', parentWidget.control, parentWidget.preview);
+// Widgets additional
+import './app/widgets/index.js';
 
 // Import config
 import config from './app/config.js';
