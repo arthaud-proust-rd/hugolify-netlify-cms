@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isNotIndex } from '../fields/isnotindex.js'
 import { draft } from '../fields/draft.js'
 import { date } from '../fields/date.js'
 import { description } from '../fields/description.js'
@@ -24,8 +24,7 @@ const casestudies = {
     filter: { field: 'index', value: false },
 
     fields: [
-        { name: 'layout', widget: 'hidden', default: 'blocks' },
-        index,
+        isNotIndex,
         draft,
         date,
         title,

@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isNotIndex } from '../fields/isnotindex.js'
 import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
@@ -27,7 +27,7 @@ const authors = {
     filter: { field: 'index', value: false },
 
     fields: [
-        index,
+        isNotIndex,
         draft,
         title,
         description,

@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isNotIndex } from '../fields/isnotindex.js'
 import { title } from '../fields/title.js'
 
 const categories = {
@@ -20,7 +20,7 @@ const categories = {
     filter: { field: 'index', value: false },
 
     fields: [
-        index,
+        isNotIndex,
         title
     ]
 }

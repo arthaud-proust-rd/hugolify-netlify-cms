@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isNotIndex } from '../fields/isnotindex.js'
 import { draft } from '../fields/draft.js'
 import { date } from '../fields/date.js'
 import { title } from '../fields/title.js'
@@ -27,7 +27,7 @@ const posts = {
     filter: { field: 'index', value: false },
 
     fields: [
-        index,
+        isNotIndex,
         draft,
         date,
         title,
