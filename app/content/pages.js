@@ -1,4 +1,4 @@
-import { isPage } from '../fields/ispage.js'
+import { isPage } from '../fields/is-page.js'
 import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { hero } from '../fields/hero.js'

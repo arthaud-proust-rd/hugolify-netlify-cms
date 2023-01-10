@@ -1,4 +1,4 @@
-import { isNotIndex } from '../fields/isnotindex.js'
+import { isNotIndex } from '../fields/is-not-index.js'
 import { draft } from '../fields/draft.js'
 import { date } from '../fields/date.js'
 import { title } from '../fields/title.js'
@@ -23,7 +23,7 @@ const publications = {
     path: '{{year}}/{{month}}/{{slug}}',
     summary: '{{title}} — {{year}}',
 
-    filter: { field: 'index', value: false },
+    filter: { field: 'isIndex', value: false },
 
     fields: [
         isNotIndex,

@@ -1,4 +1,4 @@
-import { isNotIndex } from '../fields/isnotindex.js'
+import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
 
 const tags = {
@@ -17,7 +17,7 @@ const tags = {
     path: '{{slug}}/_index',
 
     nested: { depth: 2 },
-    filter: { field: 'index', value: false },
+    filter: { field: 'isIndex', value: false },
 
     fields: [
         isNotIndex,

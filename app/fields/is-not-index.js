@@ -1,8 +1,8 @@
 export const isNotIndex = {
-    name: 'isNotIndex',
+    name: 'isIndex',
     label: 'Is not index',
     widget: 'hidden',
-    default: true,
+    default: false,
     required: false,
     i18n: 'duplicate'
 }
