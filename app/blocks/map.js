@@ -2,6 +2,7 @@ import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { map } from '../fields/map.js'
 import { zoom } from '../fields/zoom.js'
+import { grid } from '../fields/grid.js'
 import { background } from '../fields/background.js'
 
 export const block_map = {
@@ -17,6 +18,7 @@ export const block_map = {
         text,
         map,
         zoom,
+        grid,
         background
     ]
 }
