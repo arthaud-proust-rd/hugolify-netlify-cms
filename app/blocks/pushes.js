@@ -3,7 +3,7 @@ import { image_alt } from '../fields/image-alt.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { cta } from '../fields/cta.js'
-import { align } from '../fields/align.js'
+import { offset } from '../fields/offset.js'
 import { background } from '../fields/background.js'
 
 export const block_pushes = {
@@ -49,7 +49,7 @@ export const block_pushes = {
                         image_alt,
                     ]
                 },
-                align,
+                offset,
                 title,
                 text,
                 cta
