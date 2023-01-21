@@ -1,4 +1,4 @@
-# Hugo Netlify CMS Template
+# Hugo Netlify CMS
 
 ## Table of contents
 
@@ -42,7 +42,7 @@
 ## Install
 Add this repository as a subdomain in your hugo project:
 ```
-git submodule add git@github.com:sebousan/hugolify-netlify-cms-template static1/admin
+git submodule add git@github.com:sebousan/hugolify-netlify-cms static1/admin
 ```
 
 ## Documentations
