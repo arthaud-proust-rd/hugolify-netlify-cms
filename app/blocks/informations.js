@@ -40,7 +40,7 @@ export const block_informations = {
                     fields: [
                         image_src,
                         image_alt,
-                        { name: 'isLogo', label: 'Est-ce un logo ?', widget: 'boolean', required: false, hint: 'Pour centrer l’image dans une case', i18n: 'duplicate' }
+                        { name: 'isLogo', label: 'Est-ce un logo ou une icône ?', widget: 'boolean', required: false, hint: 'Pour centrer l’image dans une case', i18n: 'duplicate' }
                     ]
                 },
                 title,

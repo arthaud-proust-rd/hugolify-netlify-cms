@@ -1,5 +1,4 @@
-import { image_src } from '../fields/image-src.js'
-import { image_alt } from '../fields/image-alt.js'
+import { image } from '../fields/image.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { cta } from '../fields/cta.js'
@@ -37,18 +36,7 @@ export const block_pushes = {
             collapsed: true,
             summary: '{{title}}',
             fields: [
-                {
-                    name: 'image',
-                    label: 'Image',
-                    widget: 'object',
-                    required: false,
-                    i18n: true,
-                    collapsed: true,
-                    fields: [
-                        image_src,
-                        image_alt,
-                    ]
-                },
+                image,
                 offset,
                 title,
                 text,
