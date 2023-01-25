@@ -1,3 +1,4 @@
+import { surtitle } from './surtitle.js'
 import { title } from './title.js'
 import { text_markdown } from './text-markdown.js'
 import { cta } from './cta.js'
@@ -12,6 +13,7 @@ export const hero = {
     i18n: true,
     collapsed: true,
     fields: [
+        surtitle,
         title,
         text_markdown,
         cta,

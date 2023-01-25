@@ -1,4 +1,5 @@
 import { direction } from '../fields/direction.js'
+import { surtitle } from '../fields/surtitle.js'
 import { title } from '../fields/title.js'
 import { text_markdown } from '../fields/text-markdown.js'
 import { cta } from '../fields/cta.js'
@@ -15,6 +16,7 @@ export const block_editorial = {
     summary: '{{title}}',
     fields: [
         direction,
+        surtitle,
         title,
         text_markdown,
         cta,
