@@ -1,9 +1,8 @@
-import { sublinks } from './sublinks.js'
 import { title } from './title.js'
 import { url } from './url.js'
 import { blank } from './blank.js'
 
-export const links = {
+export const sublinks = {
     name: 'links',
     label: 'Liens',
     label_singular: 'Lien',
@@ -13,7 +12,6 @@ export const links = {
     fields: [
         title,
         url,
-        blank,
-        sublinks
+        blank
     ]
 }
