@@ -1,7 +1,7 @@
-export const authors = {
-    name: 'authors',
-    label: 'Auteurs ?',
-    hint: 'Plusieurs auteurs possible',
+export const concerned = {
+    name: 'concerned',
+    label: 'Personnes concernées ?',
+    hint: 'Plusieurs personnes possible',
     widget: 'relation',
     collection: 'persons',
     search_fields: ['title'],

@@ -1,7 +1,6 @@
-export const authors = {
-    name: 'authors',
-    label: 'Auteurs ?',
-    hint: 'Plusieurs auteurs possible',
+export const persons = {
+    name: 'items',
+    label: 'Personnes',
     widget: 'relation',
     collection: 'persons',
     search_fields: ['title'],

@@ -4,6 +4,7 @@ import { date } from '../fields/date.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { press } from '../fields/press.js'
+import { concerned } from '../fields/concerned.js'
 import { featured_image } from '../fields/featured-image.js'
 import { images } from '../fields/images.js'
 import { body } from '../fields/body.js'
@@ -29,10 +30,11 @@ const publications = {
         isNotIndex,
         draft,
         date,
+        concerned,
         title,
         description,
-        featured_image,
         press,
+        featured_image,
         images,
         body
     ]

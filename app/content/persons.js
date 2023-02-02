@@ -3,17 +3,16 @@ import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { featured_image } from '../fields/featured-image.js'
-import { email } from '../fields/email.js'
-import { website } from '../fields/website.js'
-import { twitter } from '../fields/twitter.js'
+import { contact } from '../fields/contact.js'
+import { body } from '../fields/body.js'
 
-const authors = {
-    name: 'authors',
-    label: 'Auteurs',
-    label_singular: 'Auteur',
-    folder: 'content/authors',
+const persons = {
+    name: 'persons',
+    label: 'Personnes',
+    label_singular: 'Personne',
+    folder: 'content/persons',
     create: true,
-    description: 'Tous les auteurs d’actualités',
+    description: 'Toutes les personnes',
 
     editor: { preview: false },
 
@@ -32,10 +31,9 @@ const authors = {
         title,
         description,
         featured_image,
-        email,
-        twitter,
-        website
+        contact,
+        body
     ]
 }
 
-export default authors
+export default persons

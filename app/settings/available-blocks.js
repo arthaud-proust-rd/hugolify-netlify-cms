@@ -15,6 +15,7 @@ export const availableBlocks = [
     'paragraph',
     'selectedposts',
     'selectedcasestudies',
+    'selectedpersons',
     'selectedprojects',
     'selectedpublications',
     'title'

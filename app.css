@@ -236,7 +236,7 @@ aside [href="#/collections/config"] span::before {
 aside [href="#/collections/posts"] span::before {
     content: '\F38B';
 }
-aside [href="#/collections/authors"] span::before {
+aside [href="#/collections/persons"] span::before {
     content: '\F4D0';
 }
 aside [href="#/collections/categories"] span::before {
