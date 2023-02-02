@@ -1,6 +1,7 @@
 import { image } from '../fields/image.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
+import { column_simple } from '../fields/column-simple.js'
 import { cta } from '../fields/cta.js'
 import { offset } from '../fields/offset.js'
 import { background } from '../fields/background.js'
@@ -16,16 +17,7 @@ export const block_pushes = {
     fields: [
         title,
         text,
-        { 
-            name: 'column',
-            label: 'Nombre de colonnes',
-            widget: 'number',
-            min: 1,
-            max: 2,
-            value_type: 'int',
-            default: 1,
-            i18n: 'duplicate'
-        },
+        column_simple,
         {
             name: 'items',
             label: 'Pushes',
