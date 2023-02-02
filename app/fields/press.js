@@ -5,7 +5,7 @@ export const press = {
     name: 'press',
     label: 'Source de l’article',
     widget: 'object',
-    collapsed: true,
+    collapsed: false,
     required: false,
     fields: [
         title,
