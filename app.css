@@ -11,7 +11,7 @@
 }
 
 header nav::before {
-    background: url("./logo-hugolify.svg") no-repeat;
+    background: url("./logo-picto.svg") no-repeat;
     background-size: contain;
     content: '';
     float: left;
