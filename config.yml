@@ -1,0 +1,6 @@
+module:
+  mounts:
+    - source: app
+      target: static1/admin/app
+    - source: emails
+      target: static1/admin/emails
