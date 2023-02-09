@@ -3,7 +3,8 @@ export const availableCollections = [
     'categories',
     'tags',
     'projects',
-    'types',
+    'projects_types',
+    'projects_tags',
     'casestudies',
     'publications',
     'persons'

@@ -1,8 +1,8 @@
-export const types = {
-    name: 'types',
+export const projects_types = {
+    name: 'projects_types',
     label: 'Types',
     widget: 'relation',
-    collection: 'types',
+    collection: 'projects_types',
     search_fields: ['title'],
     value_field: 'title',
     display_fields: ['title'],

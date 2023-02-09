@@ -1,11 +1,11 @@
 import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
 
-const types = {
-    name: 'types',
+const projects_types = {
+    name: 'projects_types',
     label: 'Types de projet',
     label_singular: 'Type',
-    folder: 'content/types',
+    folder: 'content/projects_types',
     create: true,
     description: 'Tous les types de projets',
 
@@ -26,4 +26,4 @@ const types = {
 
 }
 
-export default types
+export default projects_types

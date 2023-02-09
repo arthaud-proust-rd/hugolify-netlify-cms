@@ -1,7 +1,8 @@
 import { isNotIndex } from '../fields/is-not-index.js'
 import { draft } from '../fields/draft.js'
 import { date } from '../fields/date.js'
-import { types } from '../fields/types.js'
+import { projects_types } from '../fields/projects_types.js'
+import { projects_tags } from '../fields/projects_tags.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { featured_image } from '../fields/featured-image.js'
@@ -31,7 +32,8 @@ const projects = {
         date,
         title,
         description,
-        types,
+        projects_types,
+        projects_tags,
         featured_image,
         datas,
         images,
