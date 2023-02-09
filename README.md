@@ -2,27 +2,24 @@
 
 ## Table of contents
 
-- [Hugo Netlify CMS](#hugo-netlify-cms)
-  - [Table of contents](#table-of-contents)
-  - [Features](#features)
-  - [Screenshot](#screenshot)
-  - [Linked repository](#linked-repository)
-  - [Live demo](#live-demo)
-  - [Install](#install)
-  - [Documentations](#documentations)
-  - [License](#license)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Linked repository](#linked-repository)
+- [Live demo](#live-demo)
+- [Install](#install)
+- [Documentations](#documentations)
+- [License](#license)
 
 
 ## Features
 - rubrics `create false`
 - pages
 - projects
-- types (projects taxonomy)
-- tags (projects taxonomy)
+  - types (projects taxonomy)
+  - tags (projects taxonomy)
 - posts
-- authors (post taxonomy)
-- categories (post taxonomy)
-- tags (post taxonomy)
+  - categories (posts taxonomy)
+  - tags (posts taxonomy)
 - publications
 - casestudies
 - persons
