@@ -1,6 +1,4 @@
 module:
   mounts:
-    - source: app
-      target: static/admin/app
-    - source: emails
-      target: static/admin/emails
+    - source: admin
+      target: static/admin
