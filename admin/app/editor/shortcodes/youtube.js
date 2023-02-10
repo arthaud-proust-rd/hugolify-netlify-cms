@@ -14,7 +14,7 @@ CMS.registerEditorComponent({
             widget: 'string'
         }
     ],
-    pattern: /{{< youtube id="(.*)" title="(.*)" >}}/,
+    pattern: /{{< youtube id="(.*)" title="(.*)" class="youtube" >}}/,
     fromBlock: function (match) {
         return {
             id: match[1],
@@ -22,7 +22,7 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function (obj) {
-        return `{{< youtube id="${obj.id}" title="${obj.title}" >}}`;
+        return `{{< youtube id="${obj.id}" title="${obj.title}" class="youtube" >}}`;
     },
     toPreview: function (obj) {
         return `<img src="https://i3.ytimg.com/vi/${obj.id}/hqdefault.jpg" alt="" />`;
