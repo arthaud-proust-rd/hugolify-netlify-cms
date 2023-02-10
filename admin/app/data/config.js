@@ -3,7 +3,7 @@ import { description } from '../fields/description.js'
 import { text_markdown } from '../fields/text-markdown.js'
 import { state } from '../fields/state.js'
 import { image_src } from '../fields/image-src.js'
-import { embed } from '../fields/embed.js'
+import { twitter } from '../fields/twitter.js'
 
 const config = {
     name: 'config',
@@ -71,12 +71,26 @@ const config = {
             ]
         },
         {
-            name: 'analytics',
-            label: 'Scripts analytics',
-            file: 'data/scripts.yml',
+            name: 'socials',
+            label: 'SEO: Réseaux sociaux',
+            file: 'config/_default/social.yaml',
             i18n: true,
             fields: [
-                embed
+                twitter
+            ]
+        },
+        {
+            name: 'analytics',
+            label: 'Scripts analytics',
+            file: 'config/production/config.yaml',
+            i18n: true,
+            fields: [
+                {
+                    name: 'googleAnalytics',
+                    label: 'Google Analytics (G4)',
+                    widget: 'string',
+                    hint: 'G-MEASUREMENT_ID'
+                }
             ]
         }
 
