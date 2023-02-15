@@ -1,4 +1,5 @@
 import { image } from '../fields/image.js'
+import { background_color } from '../fields/background-color.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { column_simple } from '../fields/column-simple.js'
@@ -29,6 +30,7 @@ export const block_pushes = {
             summary: '{{title}}',
             fields: [
                 image,
+                background_color,
                 offset,
                 title,
                 text,
