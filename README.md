@@ -42,9 +42,17 @@
 - Front: https://demo.hugolify.com
 
 ## Install
+
+### Modules
+Edit `config/_default/module.yaml` to install the `hugolify-netlify-cms` module:
+```yml
+imports:
+  - path: github.com/hugolify/hugolify-netlify-cms
+```
+### Submodules
 Add this repository as a subdomain in your hugo project:
 ```
-git submodule add git@github.com:hugolify/hugolify-netlify-cms static/admin
+git submodule add git@github.com:hugolify/hugolify-netlify-cms static
 ```
 
 ## Documentations
