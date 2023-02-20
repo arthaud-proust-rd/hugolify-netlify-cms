@@ -9,7 +9,6 @@ import display_url from './config/display_url.js';
 import locale from './config/locale.js';
 // import i18n from './config/i18n.js';
 import slug from './config/slug.js';
-import collections from './collections.js';
 
 import { mediaLibrary } from './settings/media-library.js';
 
@@ -29,8 +28,7 @@ export let config = {
     public_folder,
 
     // content
-    slug,
-    collections
+    slug
 }
 
 // If media library

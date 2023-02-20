@@ -1,37 +1,42 @@
+// Config
+import config from './config.js';
+
 // Available collections
 import { availableCollections } from './settings/available-collections.js';
 
-// Types
-import col_posts from './content/posts.js';
-import col_categories from './content/categories.js';
-import col_tags from './content/tags.js';
-import col_projects from './content/projects.js';
-import col_projects_types from './content/projects_types.js';
-import col_projects_tags from './content/projects_tags.js';
-import col_casestudies from './content/casestudies.js';
-import col_publications from './content/publications.js';
-import col_persons from './content/persons.js';
-import col_pages from './content/pages.js';
-import col_indexes from './content/indexes.js';
-
-// Data
-import config from './data/config.js';
-
-const selectedCollections = [];
+// Collections
+let filesToImport = [];
+let selectedCollections = [];
 
 // add mandory collections
-selectedCollections.push(col_indexes);
-selectedCollections.push(col_pages);
+filesToImport.push('./content/indexes.js');
+filesToImport.push('./content/pages.js');
+selectedCollections = [{},{}];
 
 // add selected collections
 availableCollections.forEach(element => {
-    if (availableCollections.includes(element)) {
-        selectedCollections.push(eval('col_' + element));
-    }
+    let file = './content/' + element + '.js';
+    filesToImport.push(file);
+    selectedCollections.push({});
 });
 
-// add config
-selectedCollections.push(config);
+// add data
+filesToImport.push('./data/config.js');
+selectedCollections.push({});
 
-export const collections = selectedCollections;
-export default collections;
+// Import and init
+const countFilesToImport = filesToImport.length;
+let i = 0;
+for (const file of filesToImport) {
+    import(file).then((module) => {
+        // add collections with order respect
+        let index = filesToImport.indexOf(file);
+        selectedCollections.splice(index, 1, module.default);
+        // Init
+        i += 1;
+        if (i === countFilesToImport) {
+            config.collections = selectedCollections;
+            window.initCMS({ config });
+        }
+    });
+}

@@ -5,11 +5,8 @@ const { CMS, initCMS: init } = window;
 // Widgets additional
 import './app/widgets/index.js';
 
-// Import config
-import config from './app/config.js';
-
 // Import all shortcodes for editor
 import './app/editor/index.js';
 
-// Init
-init({ config });
+// Import collections/config and init
+import './app/collections.js';
