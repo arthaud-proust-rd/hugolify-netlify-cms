@@ -248,8 +248,11 @@ aside [href="#/collections/tags"] span::before {
 aside [href="#/collections/projects"] span::before {
     content: '\F383';
 }
-aside [href="#/collections/types"] span::before {
+aside [href="#/collections/projects_types"] span::before {
     content: '\F1A4';
+}
+aside [href="#/collections/projects_tags"] span::before {
+    content: '\F5B2';
 }
 aside [href="#/collections/casestudies"] span::before {
     content: '\F194';
