@@ -36,6 +36,10 @@ textarea {
     padding: 15px !important;
 }
 
+input[id*="color"] {
+    padding-left: 75px !important;
+}
+
 [aria-current="page"],
 [aria-current="page"] svg {
         color: var(--primary-color) !important;
