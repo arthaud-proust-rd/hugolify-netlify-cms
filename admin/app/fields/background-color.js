@@ -4,5 +4,6 @@ export const background_color = {
     widget: 'color',
     allowInput: true,
     enableAlpha: true,
+    required: false,
     i18n: 'duplicate'
 }

@@ -1,7 +1,7 @@
 {
     "name": "hugolify-netlify-cms",
-    "version": "1.1.6",
-    "homepage": "https://www.hugolify.com",
+    "version": "1.1.7",
+    "homepage": "https://www.hugolify.io",
     "repository": "https://github.com/hugolify/hugolify-netlify-cms",
     "bugs": {
         "url": "https://github.com/hugolify/hugolify-netlify-cms/issues"
