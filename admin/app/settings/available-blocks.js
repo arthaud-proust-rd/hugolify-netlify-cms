@@ -12,6 +12,7 @@ export const availableBlocks = [
     'faq',
     'figure',
     'gallery',
+    'chart',
     'images',
     'instagram',
     'paragraph',
