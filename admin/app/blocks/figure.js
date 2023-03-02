@@ -1,5 +1,6 @@
 import { figure } from '../fields/figure.js'
 import { grid } from '../fields/grid.js'
+import { offset } from '../fields/offset.js'
 import { background } from '../fields/background.js'
 
 export const block_figure = {
@@ -13,6 +14,7 @@ export const block_figure = {
     fields: [
         figure,
         grid,
+        offset,
         background
     ]
 }
