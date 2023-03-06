@@ -57,6 +57,7 @@ input[id*="color"] {
 }
 [class*="ControlContainer"] > div {
     /* border: 1px dashed var(--grey); */
+    background: transparent;
     border: 0;
     padding-bottom: 0 !important;
 }

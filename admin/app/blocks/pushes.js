@@ -1,5 +1,8 @@
-import { image } from '../fields/image.js'
+import { image_src } from '../fields/image-src.js'
+import { image_alt } from '../fields/image-alt.js'
 import { background_color } from '../fields/background-color.js'
+import { color } from '../fields/color.js'
+import { darken } from '../fields/darken.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { column_simple } from '../fields/column-simple.js'
@@ -29,12 +32,25 @@ export const block_pushes = {
             collapsed: true,
             summary: '{{title}}',
             fields: [
-                image,
-                background_color,
-                offset,
                 title,
                 text,
-                cta
+                cta,
+                offset,
+                background_color,
+                color,
+                {
+                    name: 'image',
+                    label: 'Image',
+                    widget: 'object',
+                    required: false,
+                    i18n: true,
+                    collapsed: true,
+                    fields: [
+                        image_src,
+                        image_alt,
+                        darken
+                    ]
+                }
             ]
         },
         background

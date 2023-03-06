@@ -8,5 +8,6 @@ export const align = {
         { label: 'au centre', value: 'center' }
     ],
     default: 'start',
+    required: false,
     i18n: 'duplicate'
 }

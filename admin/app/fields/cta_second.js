@@ -9,6 +9,7 @@ export const cta_second = {
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{text}}',
     fields: [
         text,
         url,
