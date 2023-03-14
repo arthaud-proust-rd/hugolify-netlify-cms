@@ -11,12 +11,12 @@ CMS.registerEditorComponent({
         url,
         blank
     ],
-    pattern: /{{< button text="(.*)" url="(.*)" blank="(.*)" >}}/,
+    pattern: /{{< button text="(.*)" url="(.*)" blank="(true|false)" >}}/,
     fromBlock: function (match) {
         return {
             text: match[1],
             url: match[2],
-            blank: match[3]
+            blank: (match[3] === "true")
         };
     },
     toBlock: function (obj) {
