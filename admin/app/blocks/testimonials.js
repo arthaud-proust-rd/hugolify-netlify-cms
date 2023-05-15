@@ -1,11 +1,11 @@
 import { heading } from '../fields/heading.js'
-import { title } from '../fields/title.js'
-import { text_markdown } from '../fields/text-markdown.js'
+import { quote } from '../fields/quote.js'
+import { author } from '../fields/author.js'
 import { background } from '../fields/background.js'
 
-export const block_faq = {
-    name: 'faq',
-    label: 'FAQ',
+export const block_testimonials = {
+    name: 'testimonials',
+    label: 'Témoignages',
     widget: 'object',
     required: false,
     i18n: true,
@@ -15,15 +15,16 @@ export const block_faq = {
         heading,
         {
             name: 'items',
-            label: 'Question/Réponse',
+            label: 'Témoignages',
+            label_singular: 'témoignage',
             widget: 'list',
             required: false,
             i18n: true,
             collapsed: true,
-            summary: '{{title}}',
+            summary: '{{quote.title}}',
             fields: [
-                title,
-                text_markdown
+                quote,
+                author
             ]
         },
         background

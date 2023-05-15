@@ -1,4 +1,4 @@
-import { title } from '../fields/title.js'
+import { heading } from '../fields/heading.js'
 import { publications } from '../fields/publications.js'
 import { show_more } from '../fields/show-more.js'
 import { background } from '../fields/background.js'
@@ -10,9 +10,9 @@ export const block_selectedpublications = {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{title}}',
+    summary: '{{heading.title}}',
     fields: [
-        title,
+        heading,
         { name: 'section', default: 'publications', widget: 'hidden' },
         publications,
         show_more,

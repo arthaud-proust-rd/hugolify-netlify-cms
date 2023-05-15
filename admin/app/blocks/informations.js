@@ -1,3 +1,4 @@
+import { heading } from '../fields/heading.js'
 import { icons } from '../fields/icons.js'
 import { image_src } from '../fields/image-src.js'
 import { image_alt } from '../fields/image-alt.js'
@@ -14,10 +15,9 @@ export const block_informations = {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{title}}',
+    summary: '{{heading.title}}',
     fields: [
-        title,
-        text,
+        heading,
         column,
         {
             name: 'items',

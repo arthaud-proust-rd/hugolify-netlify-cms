@@ -1,5 +1,4 @@
-import { title } from '../fields/title.js'
-import { text } from '../fields/text.js'
+import { heading } from '../fields/heading.js'
 import { chart } from '../fields/chart.js'
 import { grid } from '../fields/grid.js'
 import { background } from '../fields/background.js'
@@ -11,10 +10,9 @@ export const block_chart =  {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{title}}',
+    summary: '{{heading.title}}',
     fields: [
-        title,
-        text,
+        heading,
         chart,
         grid,
         background

@@ -1,5 +1,4 @@
-import { title } from '../fields/title.js'
-import { text_area } from '../fields/text-area.js'
+import { heading } from '../fields/heading.js'
 import { map } from '../fields/map.js'
 import { zoom } from '../fields/zoom.js'
 import { grid } from '../fields/grid.js'
@@ -14,8 +13,7 @@ export const block_map = {
     collapsed: false,
     summary: '{{title}}',
     fields: [
-        title,
-        text_area,
+        heading,
         map,
         zoom,
         grid,

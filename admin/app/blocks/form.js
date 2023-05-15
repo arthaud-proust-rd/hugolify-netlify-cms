@@ -1,5 +1,5 @@
+import { heading } from '../fields/heading.js'
 import { title } from '../fields/title.js'
-import { text } from '../fields/text.js'
 import { value } from '../fields/value.js'
 import { grid } from '../fields/grid.js'
 import { background } from '../fields/background.js'
@@ -11,10 +11,9 @@ export const block_form = {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{title}}',
+    summary: '{{heading.title}}',
     fields: [
-        title,
-        text,
+        heading,
         grid,
         { name: 'name', label: 'Identifiant du formulaire', widget: 'string', i18n: 'duplicate' },
         { name: 'submit', label: 'Texte du bouton d’envoie', widget: 'string', i18n: true },

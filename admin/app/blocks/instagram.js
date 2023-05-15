@@ -1,5 +1,4 @@
-import { title } from '../fields/title.js'
-import { text } from '../fields/text.js'
+import { heading } from '../fields/heading.js'
 import { count } from '../fields/count.js'
 import { background } from '../fields/background.js'
 
@@ -10,10 +9,9 @@ export const block_instagram = {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{title}}',
+    summary: '{{heading.title}}',
     fields: [
-        title,
-        text,
+        heading,
         count,
         {
             name: 'token',

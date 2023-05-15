@@ -1,6 +1,5 @@
-import { title } from '../fields/title.js'
-import { text } from '../fields/text.js'
-import { image } from '../fields/image.js'
+import { quote } from '../fields/quote.js'
+import { author } from '../fields/author.js'
 import { background } from '../fields/background.js'
 
 export const block_quote = {
@@ -10,22 +9,10 @@ export const block_quote = {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{text}}',
+    summary: '{{quote}}',
     fields: [
-        text,
-        {
-            name: 'author',
-            title: 'Auteur',
-            widget: 'object',
-            required: false,
-            i18n: true,
-            collapsed: true,
-            fields: [
-                title,
-                text,
-                image
-            ]
-        },
+        quote,
+        author,
         background
     ]
 }

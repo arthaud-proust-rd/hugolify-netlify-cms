@@ -1,3 +1,4 @@
+import { heading } from '../fields/heading.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { column } from '../fields/column.js'
@@ -16,10 +17,9 @@ export const block_datas = {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{title}}',
+    summary: '{{heading.title}}',
     fields: [
-        title,
-        text,
+        heading,
         column,
         show_gauge,
         show_color,

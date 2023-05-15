@@ -1,5 +1,4 @@
-import { title } from '../fields/title.js'
-import { text } from '../fields/text.js'
+import { heading } from '../fields/heading.js'
 import { images } from '../fields/images.js'
 import { background } from '../fields/background.js'
 
@@ -10,10 +9,9 @@ export const block_images = {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{title}}',
+    summary: '{{heading.title}}',
     fields: [
-        title,
-        text,
+        heading,
         images,
         background
     ]

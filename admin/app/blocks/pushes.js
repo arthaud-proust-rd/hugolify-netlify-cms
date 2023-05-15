@@ -1,3 +1,4 @@
+import { heading } from '../fields/heading.js'
 import { image_src } from '../fields/image-src.js'
 import { image_alt } from '../fields/image-alt.js'
 import { background_color } from '../fields/background-color.js'
@@ -17,10 +18,9 @@ export const block_pushes = {
     required: false,
     i18n: true,
     collapsed: false,
-    summary: '{{title}}',
+    summary: '{{heading.title}}',
     fields: [
-        title,
-        text,
+        heading,
         column_simple,
         {
             name: 'items',
