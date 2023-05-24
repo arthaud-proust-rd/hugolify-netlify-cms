@@ -36,6 +36,14 @@ export const block_pushes = {
                 text,
                 cta,
                 offset,
+                {
+                    name: 'card',
+                    label: 'Texte dans un bloc',
+                    widget: 'boolean',
+                    default: false,
+                    required: false,
+                    i18n: 'duplicate'
+                },
                 background_color,
                 color,
                 {
