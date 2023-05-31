@@ -1,6 +1,6 @@
 import { surtitle } from './surtitle.js'
 import { title } from './title.js'
-import { text } from './text.js'
+import { text_markdown } from './text-markdown.js'
 
 export const heading = {
     name: 'heading',
@@ -12,6 +12,6 @@ export const heading = {
     fields: [
         surtitle,
         title,
-        text
+        text_markdown
     ]
 }
