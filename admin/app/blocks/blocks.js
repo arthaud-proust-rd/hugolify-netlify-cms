@@ -39,5 +39,6 @@ export const blocks = {
     label_singular: 'Bloc de contenu',
     widget: 'list',
     collapsed: false,
-    types: selectedBlocks
+    types: selectedBlocks,
+    i18n: true
 };

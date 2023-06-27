@@ -10,7 +10,10 @@ const config = {
     label: 'Config',
 
     editor: { preview: false },
-
+    
+    i18n: {
+        structure: 'single_file'
+    },
     files: [
 
         {
@@ -44,7 +47,7 @@ const config = {
             name: 'social',
             label: 'Menu réseaux sociaux',
             file: 'data/menu/social.yml',
-            i18n: true,
+            i18n: 'duplicate',
             fields: [
                 links
             ]
@@ -83,13 +86,14 @@ const config = {
             name: 'analytics',
             label: 'Scripts analytics',
             file: 'config/production/config.yaml',
-            i18n: true,
+            i18n: 'duplicate',
             fields: [
                 {
                     name: 'googleAnalytics',
                     label: 'Google Analytics (G4)',
                     widget: 'string',
-                    hint: 'G-MEASUREMENT_ID'
+                    hint: 'G-MEASUREMENT_ID',
+                    i18n: 'duplicate'
                 }
             ]
         }
