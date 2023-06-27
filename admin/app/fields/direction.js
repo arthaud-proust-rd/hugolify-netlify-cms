@@ -1,6 +1,6 @@
 export const direction = {
     name: 'direction',
-    title: 'Direction',
+    label: 'Direction',
     widget: 'select',
     options: [
         { label: 'texte à gauche / image à droite', value: 'ltr' },
