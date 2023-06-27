@@ -4,5 +4,5 @@ export const isIndex = {
     widget: 'hidden',
     default: true,
     required: false,
-    i18n: 'duplicate'
+    i18n: false
 }
