@@ -15,6 +15,7 @@ export const availableBlocks = [
     'chart',
     'images',
     'instagram',
+    'newsletter',
     'paragraph',
     'selectedposts',
     'selectedcasestudies',
