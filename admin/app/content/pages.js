@@ -11,7 +11,6 @@ const pages = {
     name: 'pages',
     label: 'Pages',
     label_singular: 'Page',
-    // folder: 'content/pages',
     folder: 'content',
     create: true,
 

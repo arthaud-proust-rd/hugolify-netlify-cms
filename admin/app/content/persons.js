@@ -16,7 +16,7 @@ const persons = {
 
     editor: { preview: false },
 
-    // #i18n: true,
+    i18n: true,
 
     nested: { depth: 2 },
 

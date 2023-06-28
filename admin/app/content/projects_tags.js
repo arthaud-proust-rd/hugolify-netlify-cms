@@ -11,7 +11,7 @@ const projects_tags = {
 
     editor: { preview: false },
 
-    // #i18n: true,
+    i18n: true,
 
     slug: '{{slug}}',
     path: '{{slug}}/_index',
