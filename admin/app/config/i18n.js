@@ -1,4 +1,6 @@
 // https://www.netlifycms.org/docs/beta-features/#i18n-support
+import { locale } from './locale.js';
+import { availableLanguages } from '../settings/available-languages.js';
 
 export const i18n = {
     // Required and can be one of multiple_folders, multiple_files or single_file
@@ -7,9 +9,9 @@ export const i18n = {
     // single_file - persists a single file in `<folder>/<slug>.<extension>`
     structure: 'multiple_files',
     // Required - a list of locales to show in the editor UI
-    locales: ['en', 'fr'],
+    locales: availableLanguages,
     // Optional, defaults to the first item in locales.
     // The locale to be used for fields validation and as a baseline for the entry.
-    default_locale: 'en'
+    default_locale: locale
 };
 export default i18n;
