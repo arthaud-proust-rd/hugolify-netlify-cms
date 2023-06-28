@@ -11,6 +11,14 @@
 - [License](#license)
 
 
+## Settings
+https://github.com/Hugolify/hugolify-netlify-cms/tree/main/admin/app/settings
+- Available blocks
+- Available collections
+- Available languages
+- Available sections
+- media-library
+
 ## Features
 - rubrics `create false`
 - pages
