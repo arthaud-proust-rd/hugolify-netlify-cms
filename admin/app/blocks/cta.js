@@ -1,5 +1,4 @@
-import { title } from '../fields/title.js'
-import { text } from '../fields/text.js'
+import { heading } from '../fields/heading.js'
 import { cta } from '../fields/cta.js'
 import { background } from '../fields/background.js'
 
@@ -12,8 +11,7 @@ export const block_cta =  {
     collapsed: false,
     summary: '{{cta.text}}',
     fields: [
-        title,
-        text,
+        heading,
         cta,
         background
     ]
