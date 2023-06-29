@@ -53,9 +53,9 @@ const config = {
             ]
         },
         {
-            name: 'top',
+            name: 'banner',
             label: 'Bannière d’information en haut du site',
-            file: 'data/top.yml',
+            file: 'data/banner.yml',
             i18n: true,
             fields: [
                 text_markdown,
