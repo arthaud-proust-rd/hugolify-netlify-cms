@@ -1,5 +1,5 @@
-export const concerned = {
-    name: 'concerned',
+export const publications_concerned = {
+    name: 'publications_concerned',
     label: 'Personnes concernées ?',
     hint: 'Plusieurs personnes possible',
     widget: 'relation',
