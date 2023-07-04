@@ -2,6 +2,7 @@ import { heading } from '../fields/heading.js'
 import { title } from '../fields/title.js'
 import { value } from '../fields/value.js'
 import { grid } from '../fields/grid.js'
+import { offset } from '../fields/offset.js'
 import { background } from '../fields/background.js'
 
 export const block_form = {
@@ -15,6 +16,7 @@ export const block_form = {
     fields: [
         heading,
         grid,
+        offset,
         { name: 'name', label: 'Identifiant du formulaire', widget: 'string', i18n: 'duplicate' },
         { name: 'submit', label: 'Texte du bouton d’envoie', widget: 'string', i18n: true },
         {
@@ -55,6 +57,8 @@ export const block_form = {
                         value
                     ],
                 },
+                { name: 'required', label: 'Champ obligatoire ?', widget: 'boolean', default: false, i18n: 'duplicate', required: false },
+                { name: 'full', label: 'Champ prenant toute la largeur ?', widget: 'boolean', default: false, i18n: 'duplicate', required: false },
                 { name: 'placeholder', label: 'Placeholder', widget: 'string', i18n: true, required: false },
                 {
                     name: 'autocomplete',
