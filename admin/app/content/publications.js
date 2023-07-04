@@ -20,8 +20,9 @@ const publications = {
 
     i18n: true,
 
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
     path: '{{year}}/{{month}}/{{slug}}',
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
+    sortable_fields: ['date', 'title'],
     summary: '{{title}} — {{year}}',
 
     filter: { field: 'isIndex', value: false },
