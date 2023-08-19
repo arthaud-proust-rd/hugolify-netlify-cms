@@ -6,11 +6,12 @@ import { featured_image } from '../fields/featured-image.js'
 import { title } from '../fields/title.js'
 import { hero } from '../fields/hero.js'
 import { blocks } from '../blocks/blocks.js'
+import {t} from "../translations/translater.js";
 
 const casestudies = {
     name: 'casestudies',
-    label: 'Cas d’études',
-    label_singular: 'Cas d’étude',
+    label: t.content.casestudies.label,
+    label_singular: t.content.casestudies.label_singular,
     folder: 'content/casestudies',
     create: true,
 

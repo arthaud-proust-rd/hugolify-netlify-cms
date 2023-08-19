@@ -1,7 +1,9 @@
+import {t} from "../translations/translater.js";
+
 export const authors = {
     name: 'authors',
-    label: 'Auteurs ?',
-    hint: 'Plusieurs auteurs possible',
+    label: t.fields.authors.label,
+    hint: t.fields.authors.hint,
     widget: 'relation',
     collection: 'persons',
     search_fields: ['title'],
