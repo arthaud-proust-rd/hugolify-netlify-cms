@@ -4,10 +4,11 @@ import { text_markdown } from '../fields/text-markdown.js'
 import { state } from '../fields/state.js'
 import { image_src } from '../fields/image-src.js'
 import { twitter } from '../fields/twitter.js'
+import {t} from "../i18n/translater.js";
 
 const config = {
     name: 'config',
-    label: 'Config',
+    label: t.config.label,
 
     editor: { preview: false },
     
@@ -18,7 +19,7 @@ const config = {
 
         {
             name: 'primary',
-            label: 'Menu principal',
+            label: t.config.files.primary,
             file: 'data/menu/primary.yml',
             i18n: true,
             fields: [
@@ -27,7 +28,7 @@ const config = {
         },
         {
             name: 'secondary',
-            label: 'Menu secondaire',
+            label: t.config.files.secondary,
             file: 'data/menu/secondary.yml',
             i18n: true,
             fields: [
@@ -36,7 +37,7 @@ const config = {
         },
         {
             name: 'legal',
-            label: 'Menu légal (mentions, politiques…)',
+            label: t.config.files.legal,
             file: 'data/menu/legal.yml',
             i18n: true,
             fields: [
@@ -45,7 +46,7 @@ const config = {
         },
         {
             name: 'social',
-            label: 'Menu réseaux sociaux',
+            label: t.config.files.social,
             file: 'data/menu/social.yml',
             i18n: 'duplicate',
             fields: [
@@ -54,7 +55,7 @@ const config = {
         },
         {
             name: 'banner',
-            label: 'Bannière d’information en haut du site',
+            label: t.config.files.banner,
             file: 'data/banner.yml',
             i18n: true,
             fields: [
@@ -64,18 +65,18 @@ const config = {
         },
         {
             name: 'seo',
-            label: 'SEO',
+            label: t.config.files.seo.label,
             file: 'data/seo.yml',
             i18n: true,
             fields: [
-                { name: 'title', label: 'Nom du site', widget: 'string', i18n: true },
+                { name: 'title', label: t.config.files.seo.fields.title, widget: 'string', i18n: true },
                 description,
                 image_src
             ]
         },
         {
             name: 'socials',
-            label: 'SEO: Réseaux sociaux',
+            label: t.config.files.social,
             file: 'config/_default/social.yaml',
             i18n: true,
             fields: [
@@ -84,13 +85,13 @@ const config = {
         },
         {
             name: 'analytics',
-            label: 'Scripts analytics',
+            label: t.config.files.analytics.label,
             file: 'config/production/config.yaml',
             i18n: 'duplicate',
             fields: [
                 {
                     name: 'googleAnalytics',
-                    label: 'Google Analytics (G4)',
+                    label: t.config.files.analytics.fields.googleAnalytics,
                     widget: 'string',
                     hint: 'G-MEASUREMENT_ID',
                     i18n: 'duplicate'
