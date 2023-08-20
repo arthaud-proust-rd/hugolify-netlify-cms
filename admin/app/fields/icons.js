@@ -1,8 +1,10 @@
+import {t} from "../i18n/translater.js";
+
 export const icons = {
     name: 'icon',
-    label: 'Icon',
+    label: t.fields.icon.label,
     widget: 'string',
     required: false,
     i18n: 'duplicate',
-    hint: 'Le nom de l’icon, doc : https://icons.getbootstrap.com/font/'
+    hint: t.fields.icon.hint
 }

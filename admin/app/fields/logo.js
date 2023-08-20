@@ -1,4 +1,5 @@
 import { mediaLibrary } from '../settings/media-library.js';
+import {t} from "../i18n/translater.js";
 let maxFileSize = 700000;
 if (mediaLibrary) {
     maxFileSize = 5000000;
@@ -6,7 +7,7 @@ if (mediaLibrary) {
 
 export const logo = {
     name: 'logo',
-    label: 'Logo',
+    label: t.fields.logo.label,
     widget: 'image',
     required: false,
     i18n: 'duplicate',
@@ -16,7 +17,7 @@ export const logo = {
             max_file_size: maxFileSize
         }
     },
-    hint: 'Compresser l’image avant de l’envoyer : https://tinypng.com/',
+    hint: t.fields.logo.hint,
     media_folder: '/assets/images/uploads',
     public_folder: '/images/uploads'
 };

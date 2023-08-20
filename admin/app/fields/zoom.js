@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const zoom = {
     name: 'zoom',
-    label: 'Zoom',
+    label: t.fields.zoom,
     widget: 'number',
     min: 1,
     default: 13,

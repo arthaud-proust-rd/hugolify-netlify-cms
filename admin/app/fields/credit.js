@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const credit = {
     name: 'credit',
-    label: 'Crédit',
+    label: t.fields.credit,
     widget: 'markdown',
     minimal: true,
     buttons: ["link"],

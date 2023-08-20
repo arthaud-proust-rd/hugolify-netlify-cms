@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const quote = {
     name: 'quote',
-    label: 'Citation',
+    label: t.fields.quote,
     widget: 'markdown',
     minimal: true,
     buttons: ["bold", "italic", "link"],

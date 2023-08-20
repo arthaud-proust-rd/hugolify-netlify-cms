@@ -6,7 +6,7 @@ import { featured_image } from '../fields/featured-image.js'
 import { title } from '../fields/title.js'
 import { hero } from '../fields/hero.js'
 import { blocks } from '../blocks/blocks.js'
-import {t} from "../translations/translater.js";
+import {t} from "../i18n/translater.js";
 
 const casestudies = {
     name: 'casestudies',

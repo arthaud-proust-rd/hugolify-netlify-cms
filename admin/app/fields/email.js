@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const email = {
     name: 'email',
-    label: 'Email',
+    label: t.fields.email,
     widget: 'string',
     required: false,
     i18n: 'duplicate'

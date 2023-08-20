@@ -3,10 +3,11 @@ import { image_alt } from './image-alt.js'
 import { credit } from './credit.js'
 import { legend } from './legend.js'
 import { half } from './half.js'
+import {t} from "../i18n/translater.js";
 
 export const images = {
     name: 'images',
-    label: 'Liste d’images',
+    label: t.fields.images,
     widget: 'list',
     collapse: false,
     i18n: true,

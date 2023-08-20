@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const text_markdown = {
     name: 'text',
-    label: 'Texte',
+    label: t.fields.text_markdown,
     widget: 'markdown',
     minimal: true,
     buttons: ["bold", "italic", "link", "bulleted-list"],

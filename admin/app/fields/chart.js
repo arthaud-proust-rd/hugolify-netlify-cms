@@ -1,39 +1,40 @@
 import { title } from '../fields/title.js'
+import {t} from "../i18n/translater.js";
 
 export const chart = {
     name: 'chart',
-    label: 'Graphique',
+    label: t.fields.chart.label,
     widget: 'object',
     fields: [
         title,
         { 
             name: 'type',
-            label: 'type',
+            label: t.fields.chart.fields.type.label,
             widget: 'select',
             multiple: false,
             options: [
-                { label: "Barre", value: "bar" },
-                { label: "Camembert", value: "pie" },
-                { label: "Ligne", value: "line" },
-                { label: "Zone polaire", value: "polarArea" },
-                { label: "Radar", value: "radar" }
+                { label: t.fields.chart.fields.type.options.bar, value: "bar" },
+                { label: t.fields.chart.fields.type.options.pie, value: "pie" },
+                { label: t.fields.chart.fields.type.options.line, value: "line" },
+                { label: t.fields.chart.fields.type.options.polarArea, value: "polarArea" },
+                { label: t.fields.chart.fields.type.options.radar, value: "radar" }
             ],
             default: ['bar']
         },
         {
             name: 'items',
-            label: 'Données',
+            label: t.fields.chart.fields.items.label,
             widget: 'list',
             i18n: true,
             fields: [
-                { name: 'label', label: 'Label', widget: 'string', i18n: true },
-                { name: 'value', label: 'Valeur', widget: 'number', i18n: 'duplicate' },
-                { name: 'color', label: 'Couleur', widget: 'color', allowInput: true, enableAlpha: true, required: false, i18n: 'duplicate' }
+                { name: 'label', label: t.fields.chart.fields.items.label, widget: 'string', i18n: true },
+                { name: 'value', label: t.fields.chart.fields.items.value, widget: 'number', i18n: 'duplicate' },
+                { name: 'color', label: t.fields.chart.fields.items.color, widget: 'color', allowInput: true, enableAlpha: true, required: false, i18n: 'duplicate' }
             ]
         },
         { 
             name: 'data', 
-            label: 'Données en mode expert', 
+            label: t.fields.chart.fields.data,
             widget: 'code', 
             required: false, 
             i18n: 'duplicate', 

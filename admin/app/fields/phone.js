@@ -1,8 +1,10 @@
+import {t} from "../i18n/translater.js";
+
 export const phone = {
     name: 'phone',
-    label: 'Téléphone',
+    label: t.fields.phone.label,
     widget: 'string',
     required: false,
     i18n: 'duplicate',
-    hint: '+33 (0) …'
+    hint: t.fields.phone.hint,
 }

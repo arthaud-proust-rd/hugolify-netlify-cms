@@ -1,8 +1,10 @@
+import {t} from "../i18n/translater.js";
+
 export const material_icons = {
     name: 'icon',
-    label: 'Icon',
+    label: t.fields.material_icons.label,
     widget: 'string',
     required: false,
     i18n: 'duplicate',
-    hint: 'Le nom de l’icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons'
+    hint: t.fields.material_icons.hint,
 }

@@ -1,4 +1,4 @@
-import {t} from "../translations/translater.js";
+import {t} from "../i18n/translater.js";
 
 export const authors = {
     name: 'authors',

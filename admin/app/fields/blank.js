@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const blank = {
     name: 'blank',
-    label: 'Ouvrir le lien dans une nouvelle fenêtre ?',
+    label: t.fields.blank,
     widget: 'boolean',
     default: false,
     required: false,

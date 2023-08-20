@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const isIndex = {
     name: 'isIndex',
-    label: 'Is index',
+    label: t.fields.is_index,
     widget: 'hidden',
     default: true,
     required: false,

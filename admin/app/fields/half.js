@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const half = {
     name: 'half',
-    label: 'Demi-taille ?',
+    label: t.fields.half,
     widget: 'boolean',
     default: false,
     required: false,

@@ -1,10 +1,12 @@
+import {t} from "../i18n/translater.js";
+
 export const direction = {
     name: 'direction',
-    label: 'Direction',
+    label: t.fields.direction.label,
     widget: 'select',
     options: [
-        { label: 'texte à gauche / image à droite', value: 'ltr' },
-        { label: 'image à gauche / texte à droite', value: 'rtl' }
+        { label: t.fields.direction.options.ltr, value: 'ltr' },
+        { label: t.fields.direction.options.rtl, value: 'rtl' }
     ],
     default: 'ltr',
     i18n: 'duplicate'

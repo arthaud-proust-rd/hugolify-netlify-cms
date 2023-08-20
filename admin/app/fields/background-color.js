@@ -1,6 +1,8 @@
-export const background_color = { 
+import {t} from "../i18n/translater.js";
+
+export const background_color = {
     name: 'background_color',
-    label: 'Couleur du fond',
+    label: t.fields.background_color,
     widget: 'color',
     allowInput: true,
     enableAlpha: true,
