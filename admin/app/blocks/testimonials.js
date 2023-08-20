@@ -2,10 +2,11 @@ import { heading } from '../fields/heading.js'
 import { quote } from '../fields/quote.js'
 import { author } from '../fields/author.js'
 import { background } from '../fields/background.js'
+import {t} from "../i18n/translater.js";
 
 export const block_testimonials = {
     name: 'testimonials',
-    label: 'Témoignages',
+    label: t.blocks.testimonials.label,
     widget: 'object',
     required: false,
     i18n: true,
@@ -15,8 +16,8 @@ export const block_testimonials = {
         heading,
         {
             name: 'items',
-            label: 'Témoignages',
-            label_singular: 'témoignage',
+            label: t.blocks.testimonials.fields.items.label,
+            label_singular: t.blocks.testimonials.fields.items.label_singular,
             widget: 'list',
             required: false,
             i18n: true,

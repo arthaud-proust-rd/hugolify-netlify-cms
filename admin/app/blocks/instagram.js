@@ -1,10 +1,11 @@
 import { heading } from '../fields/heading.js'
 import { count } from '../fields/count.js'
 import { background } from '../fields/background.js'
+import {t} from "../i18n/translater.js";
 
 export const block_instagram = {
     name: 'instagram',
-    label: 'Instagram feed',
+    label: t.blocks.instagram.label,
     widget: 'object',
     required: false,
     i18n: true,
@@ -15,7 +16,7 @@ export const block_instagram = {
         count,
         {
             name: 'token',
-            label: 'Access_token provenant d’instagram',
+            label: t.blocks.instagram.fields.token,
             widget: 'string',
             required: true,
             i18n: 'duplicate'

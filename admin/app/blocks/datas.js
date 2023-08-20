@@ -9,10 +9,11 @@ import { value_number } from '../fields/value-number.js'
 import { suffix } from '../fields/suffix.js'
 import { limit } from '../fields/limit.js'
 import { background } from '../fields/background.js'
+import {t} from "../i18n/translater.js";
 
 export const block_datas = {
     name: 'datas',
-    label: 'Blocs de données (en colonne)',
+    label: t.blocks.datas.label,
     widget: 'object',
     required: false,
     i18n: true,
@@ -25,7 +26,7 @@ export const block_datas = {
         show_color,
         {
             name: 'items',
-            label: 'Donnée',
+            label: t.blocks.datas.fields.items,
             widget: 'list',
             required: false,
             i18n: true,

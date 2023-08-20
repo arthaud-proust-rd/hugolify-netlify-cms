@@ -1,6 +1,6 @@
 import config from "../config.js";
-import { fr } from './fr.js';
-import { en } from './en.js';
+import * as fr from './fr/index.js'
+import * as en from './en/index.js';
 
 const translations = {
     en,

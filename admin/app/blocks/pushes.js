@@ -10,10 +10,11 @@ import { column_simple } from '../fields/column-simple.js'
 import { cta } from '../fields/cta.js'
 import { offset } from '../fields/offset.js'
 import { background } from '../fields/background.js'
+import {t} from "../i18n/translater.js";
 
 export const block_pushes = {
     name: 'pushes',
-    label: 'Blocs push (en colonne)',
+    label: t.blocks.pushes.label,
     widget: 'object',
     required: false,
     i18n: true,
@@ -24,8 +25,8 @@ export const block_pushes = {
         column_simple,
         {
             name: 'items',
-            label: 'Pushes',
-            label_singular: 'push',
+            label: t.blocks.pushes.fields.items.label,
+            label_singular: t.blocks.pushes.fields.items.label_singular,
             widget: 'list',
             required: false,
             i18n: true,
@@ -38,7 +39,7 @@ export const block_pushes = {
                 offset,
                 {
                     name: 'card',
-                    label: 'Texte dans un bloc',
+                    label: t.blocks.pushes.fields.items.fields.card,
                     widget: 'boolean',
                     default: false,
                     required: false,
@@ -48,7 +49,7 @@ export const block_pushes = {
                 color,
                 {
                     name: 'image',
-                    label: 'Image',
+                    label: t.blocks.pushes.fields.items.fields.image,
                     widget: 'object',
                     required: false,
                     i18n: true,
