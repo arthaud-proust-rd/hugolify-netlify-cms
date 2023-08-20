@@ -1,13 +1,14 @@
 import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
+import {t} from "../i18n/translater.js";
 
 const categories = {
     name: 'categories',
-    label: 'Categories',
-    label_singular: 'Categorie',
+    label: t.content.categories.label,
+    label_singular: t.content.categories.label_singular,
     folder: 'content/categories',
     create: true,
-    description: 'Toutes les catégories d’actualités',
+    description: t.content.categories.description,
 
     editor: { preview: false },
 

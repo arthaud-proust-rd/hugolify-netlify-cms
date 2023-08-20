@@ -3,13 +3,15 @@ import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { hero } from '../fields/hero.js'
 import { blocks } from '../blocks/blocks.js'
+import {t} from "../i18n/translater.js";
 
 const indexes = {
     name: 'indexes',
-    label: 'Rubriques',
+    label: t.content.indexes.label,
+    label_singular: t.content.indexes.label_singular,
     folder: 'content',
     create: false,
-    description: 'La page principale de chaque rubrique',
+    description: t.content.indexes.description,
 
     editor: { preview: false },
 

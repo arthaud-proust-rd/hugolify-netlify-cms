@@ -1,13 +1,14 @@
 import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
+import {t} from "../i18n/translater.js";
 
 const projects_tags = {
     name: 'projects_tags',
-    label: 'Tags de projet',
-    label_singular: 'Tag',
+    label: t.content.projects_tags.label,
+    label_singular: t.content.projects_tags.label_singular,
     folder: 'content/projects_tags',
     create: true,
-    description: 'Toutes les tags de projets',
+    description: t.content.projects_tags.description,
 
     editor: { preview: false },
 

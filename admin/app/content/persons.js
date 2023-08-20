@@ -5,14 +5,15 @@ import { description } from '../fields/description.js'
 import { featured_image } from '../fields/featured-image.js'
 import { contact } from '../fields/contact.js'
 import { body } from '../fields/body.js'
+import {t} from "../i18n/translater.js";
 
 const persons = {
     name: 'persons',
-    label: 'Personnes',
-    label_singular: 'Personne',
+    label: t.content.persons.label,
+    label_singular: t.content.persons.label_singular,
     folder: 'content/persons',
     create: true,
-    description: 'Toutes les personnes',
+    description: t.content.persons.description,
 
     editor: { preview: false },
 
