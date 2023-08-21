@@ -96,7 +96,7 @@ export const blocks = {
             token: "Access_token from Instagram"
         }
     },
-    latest: "Last items (news, projects…)",
+    latest: "Latest items (news, projects…)",
     map: "Map",
     newsletter: {
         label: "Newsletter",
