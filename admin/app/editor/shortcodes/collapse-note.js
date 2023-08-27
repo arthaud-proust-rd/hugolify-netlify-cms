@@ -1,18 +1,20 @@
+import {t} from "../../i18n/translater.js";
+
 CMS.registerEditorComponent({
     // Internal id of the component
     id: "collapsible-note",
     // Visible label
-    label: "Collapsible Note",
+    label: t.shortcodes.collapsible_note.label,
     // Fields the user need to fill out when adding an instance of the component
     fields: [
       {
         name: 'summary',
-        label: 'Summary',
+        label: t.shortcodes.collapsible_note.fields.summary,
         widget: 'string'
       },
       {
         name: 'details',
-        label: 'Details',
+        label: t.shortcodes.collapsible_note.fields.details,
         widget: 'markdown'
       }
     ],
