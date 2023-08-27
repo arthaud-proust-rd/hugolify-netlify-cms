@@ -7,5 +7,6 @@ export const availableCollections = [
     'projects_tags',
     'casestudies',
     'publications',
-    'persons'
+    'persons',
+    'services'
 ];

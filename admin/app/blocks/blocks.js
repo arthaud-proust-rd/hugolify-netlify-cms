@@ -26,6 +26,7 @@ import { block_selectedpersons } from './selected-persons.js'
 import { block_selectedposts } from './selected-posts.js'
 import { block_selectedprojects } from './selected-projects.js'
 import { block_selectedpublications } from './selected-publications.js'
+import { block_selectedservices } from './selected-services.js'
 import { block_title } from './title.js'
 
 // add selected blocks

@@ -22,5 +22,6 @@ export const availableBlocks = [
     'selectedpersons',
     'selectedprojects',
     'selectedpublications',
+    'selectedservices',
     'title'
 ];
