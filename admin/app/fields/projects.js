@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const projects = {
     name: 'items',
-    label: 'Projets',
+    label: t.fields.projects,
     widget: 'relation',
     collection: 'projects',
     multiple: true,

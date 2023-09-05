@@ -1,6 +1,8 @@
-export const color = { 
+import {t} from "../i18n/translater.js";
+
+export const color = {
     name: 'color',
-    label: 'Couleur',
+    label: t.fields.color,
     widget: 'color',
     allowInput: true,
     enableAlpha: true,

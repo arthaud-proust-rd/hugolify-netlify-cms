@@ -6,10 +6,11 @@ import { offset } from '../fields/offset.js'
 import { align } from '../fields/align.js'
 import { cta } from '../fields/cta.js'
 import { background } from '../fields/background.js'
+import {t} from "../i18n/translater.js";
 
 export const block_paragraph = {
     name: 'paragraph',
-    label: 'Paragraphe',
+    label: t.blocks.paragraph,
     widget: 'object',
     required: false,
     i18n: true,

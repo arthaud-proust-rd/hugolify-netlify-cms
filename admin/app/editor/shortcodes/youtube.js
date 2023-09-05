@@ -1,16 +1,18 @@
 /* global CMS */
+import {t} from "../../i18n/translater.js";
+
 CMS.registerEditorComponent({
     id: 'youtube',
-    label: 'Youtube',
+    label: t.shortcodes.youtube.label,
     fields: [
         {
             name: 'id',
-            label: 'Youtube Video ID',
+            label: t.shortcodes.youtube.fields.id,
             widget: 'string'
         },
         {
             name: 'title',
-            label: 'Title of this video',
+            label: t.shortcodes.youtube.fields.title,
             widget: 'string'
         }
     ],

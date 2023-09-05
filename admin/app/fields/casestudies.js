@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const casestudies = {
     name: 'items',
-    label: 'Cas d’études',
+    label: t.fields.casestudies,
     widget: 'relation',
     collection: 'casestudies',
     multiple: true,

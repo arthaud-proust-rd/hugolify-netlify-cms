@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const background = {
     name: 'background',
-    label: 'Ajouter une couleur d’arrière plan ?',
+    label: t.fields.background,
     widget: 'boolean',
     default: false,
     required: false,

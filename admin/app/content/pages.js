@@ -6,11 +6,12 @@ import { featured_image } from '../fields/featured-image.js'
 import { description } from '../fields/description.js'
 import { body } from '../fields/body.js'
 import { blocks } from '../blocks/blocks.js'
+import {t} from "../i18n/translater.js";
 
 const pages = {
     name: 'pages',
-    label: 'Pages',
-    label_singular: 'Page',
+    label: t.content.pages.label,
+    label_singular: t.content.pages.label_singular,
     folder: 'content',
     create: true,
 
@@ -35,7 +36,7 @@ const pages = {
         body,
         blocks
     ],
-    meta: { path: { label: 'Page parente', widget: 'parent', index_file: '_index' } }
+    meta: { path: { label: t.content.pages.meta.parent, widget: 'parent', index_file: '_index' } }
 }
 
 export default pages

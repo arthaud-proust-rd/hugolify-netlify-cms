@@ -1,11 +1,13 @@
+import {t} from "../i18n/translater.js";
+
 export const align = {
     name: 'align',
-    label: 'Alignement du texte',
+    label: t.fields.align.label,
     widget: 'select',
     options: [
-        { label: 'à gauche', value: 'start' },
-        { label: 'à droite', value: 'end' },
-        { label: 'au centre', value: 'center' }
+        { label: t.fields.align.options.start, value: 'start' },
+        { label: t.fields.align.options.end, value: 'end' },
+        { label: t.fields.align.options.center, value: 'center' }
     ],
     default: 'start',
     required: false,

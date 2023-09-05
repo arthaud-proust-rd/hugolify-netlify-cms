@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const map = {
     name: 'location',
-    label: 'Localisation',
+    label: t.fields.location,
     widget: 'map',
     required: false,
     i18n: 'duplicate'

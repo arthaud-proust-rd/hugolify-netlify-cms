@@ -1,16 +1,18 @@
 /* global CMS */
+import {t} from "../../i18n/translater.js";
+
 CMS.registerEditorComponent({
     id: 'twitter',
-    label: 'Twitter',
+    label: t.shortcodes.twitter.label,
     fields: [
         {
             name: 'user',
-            label: 'User',
+            label: t.shortcodes.twitter.fields.user,
             widget: 'string'
         },
         {
             name: 'id',
-            label: 'Tweet id',
+            label: t.shortcodes.twitter.fields.id,
             widget: 'string'
         }
     ],

@@ -2,10 +2,11 @@ import { heading } from '../fields/heading.js'
 import { url } from '../fields/url.js'
 import { value } from '../fields/value.js'
 import { background } from '../fields/background.js'
+import {t} from "../i18n/translater.js";
 
 export const block_newsletter = {
     name: 'newsletter',
-    label: 'Newsletter',
+    label: t.blocks.newsletter.label,
     widget: 'object',
     required: false,
     i18n: true,
@@ -15,18 +16,18 @@ export const block_newsletter = {
         heading,
         {
             name: 'platform',
-            label: 'Plateforme',
+            label: t.blocks.newsletter.fields.platform.label,
             widget: 'select',
             i18n: 'duplicate',
             options: [
-                { label: 'Brevo (ex Sendinblue)', value: 'sendinblue' },
-                { label: 'Mailchimp', value: 'mailchimp' }
+                { label: t.blocks.newsletter.fields.platform.options.sendinblue, value: 'sendinblue' },
+                { label: t.blocks.newsletter.fields.platform.options.mailchimp, value: 'mailchimp' }
             ],
             default: 'mailchimp'
         },
         {
             name: 'hiddens',
-            label: 'Champ caché du formulaire',
+            label: t.blocks.newsletter.fields.hiddens.label,
             widget: 'list',
             i18n: true,
             collapsed: true,
@@ -34,7 +35,7 @@ export const block_newsletter = {
             fields: [
                 {
                     name: 'name',
-                    label: 'Nom',
+                    label: t.blocks.newsletter.fields.hiddens.fields.name,
                     widget: 'string',
                     required: false,
                     i18n: 'duplicate'

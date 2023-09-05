@@ -8,11 +8,12 @@ import { body } from '../fields/body.js'
 import { categories } from '../fields/categories.js'
 import { tags } from '../fields/tags.js'
 import { authors } from '../fields/authors.js'
+import {t} from "../i18n/translater.js";
 
 const posts = {
     name: 'posts',
-    label: 'Actualités',
-    label_singular: 'Actualité',
+    label: t.content.posts.label,
+    label_singular: t.content.posts.label_singular,
     folder: 'content/posts',
     create: true,
 

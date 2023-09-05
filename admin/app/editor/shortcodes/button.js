@@ -2,10 +2,11 @@
 import { text } from '../../fields/text.js'
 import { url } from '../../fields/url.js'
 import { blank } from '../../fields/blank.js'
+import {t} from "../../i18n/translater.js";
 
 CMS.registerEditorComponent({
     id: 'button',
-    label: 'Bouton',
+    label: t.shortcodes.button,
     fields: [
         text,
         url,

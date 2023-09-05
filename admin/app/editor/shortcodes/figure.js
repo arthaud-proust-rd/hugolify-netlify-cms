@@ -3,10 +3,11 @@ import { image_src } from '../../fields/image-src.js'
 import { image_alt } from '../../fields/image-alt.js'
 import { legend } from '../../fields/legend.js'
 import { credit } from '../../fields/credit.js'
+import {t} from "../../i18n/translater.js";
 
 CMS.registerEditorComponent({
     id: 'figure',
-    label: 'Figure (image)',
+    label: t.shortcodes.figure,
     fields: [
         image_src,
         image_alt,

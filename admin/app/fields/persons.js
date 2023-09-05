@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const persons = {
     name: 'items',
-    label: 'Personnes',
+    label: t.fields.persons,
     widget: 'relation',
     collection: 'persons',
     search_fields: ['title'],

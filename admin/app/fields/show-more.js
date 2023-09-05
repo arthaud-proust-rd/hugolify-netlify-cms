@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const show_more = {
     name: 'show_more',
-    label: 'Afficher un bouton pour découvir plus d’élements ?',
+    label: t.fields.show_more,
     widget: 'boolean',
     default: true,
     required: false,

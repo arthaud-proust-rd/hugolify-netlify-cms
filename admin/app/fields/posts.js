@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const posts = {
     name: 'items',
-    label: 'Actualités',
+    label: t.fields.posts,
     widget: 'relation',
     collection: 'posts',
     multiple: true,

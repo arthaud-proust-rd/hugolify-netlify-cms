@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const show_gauge = {
     name: 'show_gauge',
-    label: 'Afficher une jaune de progression ?',
+    label: t.fields.show_gauge,
     widget: 'boolean',
     default: true,
     required: false,

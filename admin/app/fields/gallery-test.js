@@ -3,6 +3,7 @@ import { image_src } from './image-src.js'
 import { image_alt } from './image-alt.js'
 import { credit } from './credit.js'
 import { legend } from './legend.js'
+import {t} from "../i18n/translater.js";
 
 let gallery = {}
 
@@ -10,7 +11,7 @@ let gallery = {}
 if (uploadcarePublicKey !== '') {
     gallery = {
         name: 'gallery',
-        label: 'Galerie d’images',
+        label: t.fields.gallery,
         allow_multiple: true,
         widget: 'image',
         i18n: true,
@@ -23,7 +24,7 @@ if (uploadcarePublicKey !== '') {
 } else {
     gallery = {
         name: 'gallery',
-        label: 'Galerie d’images',
+        label: t.fields.gallery,
         widget: 'list',
         i18n: true,
         fields: [

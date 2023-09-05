@@ -1,8 +1,10 @@
+import {t} from "../i18n/translater.js";
+
 export const suffix = {
     name: 'suffix',
-    label: 'Suffixe',
+    label: t.fields.suffix.label,
     widget: 'string',
     required: false,
     i18n: 'duplicate',
-    hint: 'ex: %'
+    hint: t.fields.suffix.hint,
 }

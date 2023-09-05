@@ -1,12 +1,14 @@
+import {t} from "../i18n/translater.js";
+
 export const grid = {
     name: 'grid',
-    label: 'Largeur sur la grille',
+    label: t.fields.grid.label,
     widget: 'select',
     options: [
-        { label: 'Petit', value: 'small' },
-        { label: 'Moyen', value: 'medium' },
-        { label: 'Large', value: 'large' },
-        { label: 'Full', value: 'full' }
+        { label: t.fields.grid.options.small, value: 'small' },
+        { label: t.fields.grid.options.medium, value: 'medium' },
+        { label: t.fields.grid.options.large, value: 'large' },
+        { label: t.fields.grid.options.full, value: 'full' }
     ],
     default: 'large',
     required: true,

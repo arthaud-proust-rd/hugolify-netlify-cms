@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const categories = {
     name: 'categories',
-    label: 'Categories',
+    label: t.fields.categories,
     widget: 'relation',
     collection: 'categories',
     search_fields: ['title'],

@@ -1,13 +1,14 @@
 import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
+import {t} from "../i18n/translater.js";
 
 const projects_types = {
     name: 'projects_types',
-    label: 'Types de projet',
-    label_singular: 'Type',
+    label: t.content.projects_types.label,
+    label_singular: t.content.projects_types.label_singular,
     folder: 'content/projects_types',
     create: true,
-    description: 'Tous les types de projets',
+    description: t.content.projects_types.description,
 
     editor: { preview: false },
 

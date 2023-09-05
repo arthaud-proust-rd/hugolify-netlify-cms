@@ -8,11 +8,12 @@ import { publications_concerned } from '../fields/publications_concerned.js'
 import { featured_image } from '../fields/featured-image.js'
 import { images } from '../fields/images.js'
 import { body } from '../fields/body.js'
+import {t} from "../i18n/translater.js";
 
 const publications = {
     name: 'publications',
-    label: 'Parutions',
-    label_singular: 'Parution',
+    label: t.content.publications.label,
+    label_singular: t.content.publications.label_singular,
     folder: 'content/publications',
     create: true,
 

@@ -1,14 +1,16 @@
+import {t} from "../i18n/translater.js";
+
 export const address = {
     name: 'address',
-    label: 'Adresse',
+    label: t.fields.address.label,
     widget: 'object',
     required: false,
     // i18n: true,
     collapsed: true,
     fields: [
-        { name: 'street', label: 'Numéro et nom de rue', widget: 'string', required: false },
-        { name: 'zipcode', label: 'Code postal', widget: 'string', required: false },
-        { name: 'city', label: 'Ville', widget: 'string', required: false },
-        { name: 'country', label: 'Pays', widget: 'string', required: false }
+        { name: 'street', label: t.fields.address.fields.street, widget: 'string', required: false },
+        { name: 'zipcode', label: t.fields.address.fields.zipcode, widget: 'string', required: false },
+        { name: 'city', label: t.fields.address.fields.city, widget: 'string', required: false },
+        { name: 'country', label: t.fields.address.fields.country, widget: 'string', required: false }
     ]
 }

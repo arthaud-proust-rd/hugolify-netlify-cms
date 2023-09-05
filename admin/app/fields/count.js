@@ -1,6 +1,8 @@
-export const count = { 
+import {t} from "../i18n/translater.js";
+
+export const count = {
     name: 'count',
-    label: 'Nombre d’éléments',
+    label: t.fields.count,
     widget: 'number',
     min: 1,
     value_type: 'int',

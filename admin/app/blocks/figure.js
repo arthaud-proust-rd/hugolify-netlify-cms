@@ -3,10 +3,11 @@ import { figure } from '../fields/figure.js'
 import { grid } from '../fields/grid.js'
 import { offset } from '../fields/offset.js'
 import { background } from '../fields/background.js'
+import {t} from "../i18n/translater.js";
 
 export const block_figure = {
     name: 'figure',
-    label: 'Figure (image avec sa légende)',
+    label: t.blocks.figure,
     widget: 'object',
     required: false,
     i18n: true,

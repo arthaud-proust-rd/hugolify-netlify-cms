@@ -9,11 +9,12 @@ import { featured_image } from '../fields/featured-image.js'
 import { datas } from '../fields/datas.js'
 import { body } from '../fields/body.js'
 import { images } from '../fields/images.js'
+import {t} from "../i18n/translater.js";
 
 const projects = {
     name: 'projects',
-    label: 'Projets',
-    label_singular: 'Projet',
+    label: t.content.projects.label,
+    label_singular: t.content.projects.label_singular,
     folder: 'content/projects',
     create: true,
 

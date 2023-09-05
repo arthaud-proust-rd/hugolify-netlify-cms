@@ -1,6 +1,8 @@
+import {t} from "../i18n/translater.js";
+
 export const darken = {
     name: 'darken',
-    label: 'Assombrir l’image',
+    label: t.fields.darken,
     widget: 'boolean',
     default: true,
     required: false,
