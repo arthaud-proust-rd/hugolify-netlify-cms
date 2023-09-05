@@ -265,3 +265,12 @@ aside [href="#/collections/casestudies"] span::before {
 aside [href="#/collections/publications"] span::before {
     content: '\F4A3';
 }
+aside [href="#/collections/publications_categories"] span::before {
+    content: '\F1A4';
+}
+aside [href="#/collections/expertises"] span::before {
+    content: '\F585';
+}
+aside [href="#/collections/offices"] span::before {
+    content: '\F1DD';
+}
