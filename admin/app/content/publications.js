@@ -12,13 +12,13 @@ import {t} from "../i18n/translater.js";
 
 const publications = {
     name: 'publications',
+    folder: 'content/publications',
     label: t.content.publications.label,
     label_singular: t.content.publications.label_singular,
-    folder: 'content/publications',
+    description: t.content.publications.description,
+    
     create: true,
-
     editor: { preview: false },
-
     i18n: true,
 
     path: '{{year}}/{{month}}/{{slug}}',

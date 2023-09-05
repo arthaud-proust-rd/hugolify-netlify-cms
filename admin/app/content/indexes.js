@@ -7,14 +7,13 @@ import {t} from "../i18n/translater.js";
 
 const indexes = {
     name: 'indexes',
+    folder: 'content',
     label: t.content.indexes.label,
     label_singular: t.content.indexes.label_singular,
-    folder: 'content',
-    create: false,
     description: t.content.indexes.description,
-
+    
+    create: false,
     editor: { preview: false },
-
     i18n: true,
 
     nested: { depth: 3 },

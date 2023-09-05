@@ -4,14 +4,13 @@ import {t} from "../i18n/translater.js";
 
 const categories = {
     name: 'categories',
+    folder: 'content/categories',
     label: t.content.categories.label,
     label_singular: t.content.categories.label_singular,
-    folder: 'content/categories',
-    create: true,
     description: t.content.categories.description,
-
+    
+    create: true,
     editor: { preview: false },
-
     i18n: true,
 
     slug: '{{slug}}',
