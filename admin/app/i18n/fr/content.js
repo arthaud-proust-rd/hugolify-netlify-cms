@@ -2,19 +2,31 @@ export const content = {
     casestudies: {
         label: "Cas d’études",
         label_singular: "Cas d’étude",
+        description: "Tous les cas d’études"
     },
     categories: {
         label: "Catégories",
         label_singular: "Catégorie",
         description: "Toutes les catégories d’actualités"
     },
+    expertises: {
+        label: "Expertises",
+        label_singular: "Expertise",
+        description: "Toutes les expertises"
+    },
     indexes: {
         label: "Rubriques",
         description: "La page principale de chaque rubrique"
     },
+    offices: {
+        label: "Bureaux",
+        label_singular: "Bureau",
+        description: "Tous les bureaux"
+    },
     pages: {
         label: "Pages",
         label_singular: "Page",
+        description: "Toutes les pages",
         meta: {
             parent: "Page parente"
         }
@@ -22,33 +34,46 @@ export const content = {
     persons: {
         label: "Personnes",
         label_singular: "Personne",
-        description: "Toutes les personnes",
+        description: "Toutes les personnes"
+    },
+    persons_statutes: {
+        label: "Statuts",
+        label_singular: "Statut",
+        description: "Tous les statuts des personnes"
     },
     posts: {
         label: "Actualités",
         label_singular: "Actualité",
+        description: "Toutes les actualités"
     },
     projects: {
         label: "Projets",
         label_singular: "Projet",
+        description: "Tous les projets"
     },
     projects_tags: {
         label: "Tags de projet",
         label_singular: "Tag",
-        description: "Tous les tags de projet",
+        description: "Tous les tags de projet"
     },
     projects_types: {
         label: "Types de projet",
         label_singular: "Type",
-        description: "Tous les types de projet",
+        description: "Tous les types de projet"
     },
     publications: {
         label: "Parutions",
         label_singular: "Parution",
+        description: "Toutes les parutions"
+    },
+    publications_tags: {
+        label: "Tags",
+        label_singular: "Tag",
+        description: "Tous les tags des parutions"
     },
     tags: {
         label: "Tags",
         label_singular: "Tag",
-        description: "Tous les tags d’actualités",
+        description: "Tous les tags d’actualités"
     },
 }
