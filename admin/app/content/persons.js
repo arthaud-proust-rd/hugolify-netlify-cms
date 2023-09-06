@@ -19,11 +19,12 @@ const persons = {
     i18n: true,
 
     nested: { depth: 2 },
+    filter: { field: 'isIndex', value: false },
 
     slug: '{{slug}}',
-    path: '{{slug}}/_index',
-
-    filter: { field: 'isIndex', value: false },
+    
+    sortable_fields: ['title'],
+    summary: '{{title}}',
 
     fields: [
         isNotIndex,
