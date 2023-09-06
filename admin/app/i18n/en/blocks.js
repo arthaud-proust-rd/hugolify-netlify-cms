@@ -132,6 +132,8 @@ export const blocks = {
     },
     quote: "Quote",
     selectedcasestudies: "Case studies selection",
+    selectedexpertises: "Expertises selection",
+    selectedoffices: "Offices selection",
     selectedpersons: "Persons selection",
     selectedposts: "News selection",
     selectedprojects: "Projects selection",

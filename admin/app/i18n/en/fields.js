@@ -73,6 +73,7 @@ export const fields = {
     draft: "Draft",
     email: "Email",
     embed: "Embed",
+    expertises_items: "Expertises",
     featured_image: "Featured image",
     figure: "Image with legend",
     gallery: "Image gallery",
@@ -140,6 +141,7 @@ export const fields = {
         label: "Icon",
         hint: "Name of the icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons"
     },
+    offices_items: "Offices",
     offset: {
         label: "Offset",
         options: {

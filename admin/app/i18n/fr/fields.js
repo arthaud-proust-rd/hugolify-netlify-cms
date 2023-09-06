@@ -73,6 +73,7 @@ export const fields = {
     draft: "Brouillon",
     email: "Email",
     embed: "Embed",
+    expertises_items: "Expertises",
     featured_image: "Image mise en avant",
     figure: "Image avec légende",
     gallery: "Galerie d’images",
@@ -140,6 +141,7 @@ export const fields = {
         label: "Icône",
         hint: "Le nom de l’icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons"
     },
+    offices_items: "Bureaux",
     offset: {
         label: "Alignement",
         options: {
