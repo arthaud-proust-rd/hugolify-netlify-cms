@@ -10,13 +10,13 @@ import {t} from "../i18n/translater.js";
 
 const casestudies = {
     name: 'casestudies',
+    folder: 'content/casestudies',
     label: t.content.casestudies.label,
     label_singular: t.content.casestudies.label_singular,
-    folder: 'content/casestudies',
+    description: t.content.casestudies.description,
+    
     create: true,
-
     editor: { preview: false },
-
     i18n: true,
 
     slug: '{{slug}}',

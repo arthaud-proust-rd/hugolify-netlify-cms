@@ -3,16 +3,18 @@ import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { featured_image } from '../fields/featured-image.js'
+import { address } from '../fields/address.js'
 import { contact } from '../fields/contact.js'
 import { body } from '../fields/body.js'
+import { blocks } from '../blocks/blocks.js'
 import {t} from "../i18n/translater.js";
 
-const persons = {
-    name: 'persons',
-    folder: 'content/persons',
-    label: t.content.persons.label,
-    label_singular: t.content.persons.label_singular,
-    description: t.content.persons.description,
+const offices = {
+    name: 'offices',
+    folder: 'content/offices',
+    label: t.content.offices.label,
+    label_singular: t.content.offices.label_singular,
+    description: t.content.offices.description,
     
     create: true,
     editor: { preview: false },
@@ -20,9 +22,8 @@ const persons = {
 
     nested: { depth: 2 },
     filter: { field: 'isIndex', value: false },
-
-    slug: '{{slug}}',
     
+    slug: '{{slug}}',
     sortable_fields: ['title'],
     summary: '{{title}}',
 
@@ -31,10 +32,12 @@ const persons = {
         draft,
         title,
         description,
-        featured_image,
+        address,
         contact,
-        body
+        featured_image,
+        body,
+        blocks
     ]
 }
 
-export default persons
+export default offices

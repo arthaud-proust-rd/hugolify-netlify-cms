@@ -10,13 +10,13 @@ import {t} from "../i18n/translater.js";
 
 const pages = {
     name: 'pages',
+    folder: 'content',
     label: t.content.pages.label,
     label_singular: t.content.pages.label_singular,
-    folder: 'content',
+    description: t.content.pages.description,
+    
     create: true,
-
     editor: { preview: false },
-
     i18n: true,
 
     slug: '{{slug}}',

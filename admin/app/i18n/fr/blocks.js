@@ -132,6 +132,8 @@ export const blocks = {
     },
     quote: "Citation",
     selectedcasestudies: "Sélection de cas d’études",
+    selectedexpertises: "Sélection d’expertises",
+    selectedoffices: "Sélection de bureaux",
     selectedpersons: "Sélection de personnes",
     selectedposts: "Sélection d’actualités",
     selectedprojects: "Sélection de projets",

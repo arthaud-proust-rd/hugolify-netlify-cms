@@ -4,14 +4,13 @@ import {t} from "../i18n/translater.js";
 
 const projects_tags = {
     name: 'projects_tags',
+    folder: 'content/projects_tags',
     label: t.content.projects_tags.label,
     label_singular: t.content.projects_tags.label_singular,
-    folder: 'content/projects_tags',
-    create: true,
     description: t.content.projects_tags.description,
-
+    
+    create: true,
     editor: { preview: false },
-
     i18n: true,
 
     slug: '{{slug}}',

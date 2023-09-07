@@ -66,10 +66,10 @@ export const content = {
         label_singular: "Parution",
         description: "Toutes les parutions"
     },
-    publications_tags: {
-        label: "Tags",
-        label_singular: "Tag",
-        description: "Tous les tags des parutions"
+    publications_categories: {
+        label: "Catégories",
+        label_singular: "Catégorie",
+        description: "Toutes les catégories des parutions"
     },
     tags: {
         label: "Tags",

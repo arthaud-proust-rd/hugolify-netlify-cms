@@ -13,13 +13,13 @@ import {t} from "../i18n/translater.js";
 
 const projects = {
     name: 'projects',
+    folder: 'content/projects',
     label: t.content.projects.label,
     label_singular: t.content.projects.label_singular,
-    folder: 'content/projects',
+    description: t.content.projects.description,
+
     create: true,
-
     editor: { preview: false },
-
     i18n: true,
 
     slug: '{{slug}}',

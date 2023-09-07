@@ -2,12 +2,12 @@ import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
 import {t} from "../i18n/translater.js";
 
-const tags = {
-    name: 'tags',
-    folder: 'content/tags',
-    label: t.content.tags.label,
-    label_singular: t.content.tags.label_singular,
-    description: t.content.tags.description,
+const publications_categories = {
+    name: 'publications_categories',
+    folder: 'content/publications_categories',
+    label: t.content.categories.label,
+    label_singular: t.content.publications_categories.label_singular,
+    description: t.content.publications_categories.description,
     
     create: true,
     editor: { preview: false },
@@ -25,4 +25,4 @@ const tags = {
     ]
 }
 
-export default tags
+export default publications_categories
