@@ -1,3 +1,5 @@
+import {t} from "../i18n/translater.js";
+
 export const expertises = {
     name: 'items',
     label: t.fields.expertises_items,

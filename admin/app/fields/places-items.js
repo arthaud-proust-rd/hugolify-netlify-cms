@@ -1,3 +1,5 @@
+import {t} from "../i18n/translater.js";
+
 export const places = {
     name: 'items',
     label: t.fields.places_items,
