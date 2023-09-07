@@ -19,10 +19,10 @@ export const content = {
         label_singular: "Index",
         description: "Page of each index"
     },
-    offices: {
-        label: "Offices",
-        label_singular: "Office",
-        description: "All offices"
+    places: {
+        label: "Places",
+        label_singular: "Place",
+        description: "All places"
     },
     pages: {
         label: "Pages",

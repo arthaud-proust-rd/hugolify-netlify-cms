@@ -18,10 +18,10 @@ export const content = {
         label: "Rubriques",
         description: "La page principale de chaque rubrique"
     },
-    offices: {
-        label: "Bureaux",
-        label_singular: "Bureau",
-        description: "Tous les bureaux"
+    places: {
+        label: "Lieux",
+        label_singular: "Lieu",
+        description: "Tous les lieux"
     },
     pages: {
         label: "Pages",

@@ -1,8 +1,8 @@
-export const offices = {
+export const places = {
     name: 'items',
-    label: t.fields.offices_items,
+    label: t.fields.places_items,
     widget: 'relation',
-    collection: 'offices',
+    collection: 'places',
     search_fields: ['title'],
     value_field: '{{filename}}',
     display_fields: ['title'],

@@ -141,7 +141,6 @@ export const fields = {
         label: "Icon",
         hint: "Name of the icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons"
     },
-    offices_items: "Offices",
     offset: {
         label: "Offset",
         options: {
@@ -156,6 +155,7 @@ export const fields = {
         label: "Phone",
         hint: " "
     },
+    places_items: "Places",
     posts: "News",
     prefix: "Prefix",
     press: "Article source",

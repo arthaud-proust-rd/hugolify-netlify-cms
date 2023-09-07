@@ -1,12 +1,12 @@
 import { heading } from '../fields/heading.js'
-import { offices } from '../fields/offices-items.js'
+import { places } from '../fields/places-items.js'
 import { show_more } from '../fields/show-more.js'
 import { background } from '../fields/background.js'
 import {t} from "../i18n/translater.js";
 
-export const block_selectedoffices = {
-    name: 'selected-offices',
-    label: t.blocks.selectedoffices,
+export const block_selectedplaces = {
+    name: 'selected-places',
+    label: t.blocks.selectedplaces,
     widget: 'object',
     required: false,
     i18n: true,
@@ -14,8 +14,8 @@ export const block_selectedoffices = {
     summary: '{{title}}',
     fields: [
         heading,
-        { name: 'section', default: 'offices', widget: 'hidden' },
-        offices,
+        { name: 'section', default: 'places', widget: 'hidden' },
+        places,
         show_more,
         background
     ]

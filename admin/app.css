@@ -271,6 +271,6 @@ aside [href="#/collections/publications_categories"] span::before {
 aside [href="#/collections/expertises"] span::before {
     content: '\F585';
 }
-aside [href="#/collections/offices"] span::before {
+aside [href="#/collections/places"] span::before {
     content: '\F1DD';
 }

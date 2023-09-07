@@ -9,7 +9,7 @@ import publications from '../content/publications.js'
 import publications_categories from '../content/publications_categories.js'
 import persons from '../content/persons.js'
 import expertises from '../content/expertises.js'
-import offices from '../content/offices.js'
+import places from '../content/places.js'
 
 export default [
     posts,
@@ -23,5 +23,5 @@ export default [
     publications_categories,
     persons,
     //expertises,
-    //offices
+    //places
 ]

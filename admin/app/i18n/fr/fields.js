@@ -141,7 +141,6 @@ export const fields = {
         label: "Icône",
         hint: "Le nom de l’icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons"
     },
-    offices_items: "Bureaux",
     offset: {
         label: "Alignement",
         options: {
@@ -156,6 +155,7 @@ export const fields = {
         label: "Téléphone",
         hint: "+33 (0) …"
     },
+    places_items: "Lieux",
     posts: "Actualités",
     prefix: "Préfixe",
     press: "Source de l’article",

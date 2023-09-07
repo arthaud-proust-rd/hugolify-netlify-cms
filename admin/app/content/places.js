@@ -9,12 +9,12 @@ import { body } from '../fields/body.js'
 import { blocks } from '../blocks/blocks.js'
 import {t} from "../i18n/translater.js";
 
-const offices = {
-    name: 'offices',
-    folder: 'content/offices',
-    label: t.content.offices.label,
-    label_singular: t.content.offices.label_singular,
-    description: t.content.offices.description,
+const places = {
+    name: 'places',
+    folder: 'content/places',
+    label: t.content.places.label,
+    label_singular: t.content.places.label_singular,
+    description: t.content.places.description,
     
     create: true,
     editor: { preview: false },
@@ -40,4 +40,4 @@ const offices = {
     ]
 }
 
-export default offices
+export default places
