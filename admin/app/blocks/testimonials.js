@@ -22,7 +22,7 @@ export const block_testimonials = {
             required: false,
             i18n: true,
             collapsed: true,
-            summary: '{{quote.title}}',
+            summary: '{{fields.quote | truncate(30, "…")}}',
             fields: [
                 quote,
                 author
